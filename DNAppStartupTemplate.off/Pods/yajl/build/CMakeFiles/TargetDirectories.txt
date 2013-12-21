@@ -1,0 +1,7 @@
+/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/Phoenix/Pods/yajl/build/CMakeFiles/doc.dir
+/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/Phoenix/Pods/yajl/build/reformatter/CMakeFiles/json_reformat.dir
+/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/Phoenix/Pods/yajl/build/verify/CMakeFiles/json_verify.dir
+/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/Phoenix/Pods/yajl/build/CMakeFiles/test.dir
+/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/Phoenix/Pods/yajl/build/src/CMakeFiles/yajl.dir
+/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/Phoenix/Pods/yajl/build/src/CMakeFiles/yajl_s.dir
+/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/Phoenix/Pods/yajl/build/test/CMakeFiles/yajl_test.dir

@@ -1,0 +1,1 @@
+YAJL-Entity/NSObject+Properties.h

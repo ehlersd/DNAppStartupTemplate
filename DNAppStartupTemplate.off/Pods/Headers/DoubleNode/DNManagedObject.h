@@ -1,0 +1,1 @@
+../../DoubleNode/Classes/DNManagedObject.h

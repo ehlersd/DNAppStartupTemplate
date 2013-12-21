@@ -1,0 +1,1 @@
+PODS_PHOENIXGHTESTS_COCOAPLUS_OTHER_LDFLAGS = -framework AVFoundation -framework CoreGraphics -framework CoreMedia -framework MediaPlayer -framework QuartzCore

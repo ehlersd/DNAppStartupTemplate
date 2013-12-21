@@ -1,0 +1,86 @@
+# - Made NavBar appear immediately when scrolling down
+
+Build 1.0.0.124F29B0B19E
+- Added German language translation strings for SignIn screen
+- Implemented KPAViewControllerTestHelper in UnitTests
+
+Build 1.0.0.1020
+- Added support for iPhone4/4S screen size
+- Implemented new pendingTransition values
+- Additional transition tweaks
+
+Build 1.0.0.1019
+- Added new DNStateViewController pending properties
+- Used UIView (Pending) category shortcuts
+- Added "Reset Password" functionality
+
+Build 1.0.0.1018
+- Moved table OAuth2 server and church AppConstants
+
+Build 1.0.0.1017
+- Implemented OAuth2 login using 'jeff@example.com' and 'letmein' credentials (QA4 server)
+
+Build 1.0.0.1016
+- Added new DesktopViewController & updated presentation of LOGWelcomeViewController
+- Updated Unit Tests for DesktopViewController & LOGWelcomeViewController
+- Updated pods
+
+Build 1.0.0.1015
+- Increased error message popup to multiple lines
+
+Build 1.0.0.1014
+- Added error message string on sign in form
+- Added processing spinner
+
+Build 1.0.0.1013
+- Added error message popup on sign in form
+- Added username/email hint
+
+Build 1.0.0.1012
+- Changed "Username" to "Email Address"
+- Update iPad login layout
+- Added State refresh on device rotation
+
+Build 1.0.0.1011
+- Added form validation code
+- Enhanced viewState change notifications
+- Added viewState theming support
+- Updated Button lable attributedString theming support
+
+Build 1.0.0.1010
+- Implemented State ViewController code for Login Screen
+- Implemented new Form management & validation library
+
+Build 1.0.0.1009
+- New provisioning profiles to diagnose and try to fix installation problems on some testers
+
+Build 1.0.0.1008
+- Added SignUp form
+- Added Accessability Field Values
+
+Build 1.0.0.1007
+- Added NavBar Menu Button
+- Optimized main collection view scrolling
+
+Build 1.0.0.1006
+- Made Navagation Bar hidable when scrolling
+
+Build 1.0.0.1005
+- Added Theme Styling code
+
+Build 1.0.0.1004
+- Added iPad Welcome View
+- Added string localizations
+
+Build 1.0.0.1003
+- Added popup Welcome View
+
+Build 1.0.0.1002
+- Fixed iPad Main Feed Collection View cell sizing
+
+Build 1.0.0.1001
+* Initial build
+- Main Feed Collection View Example
+- iPhone/iPad Layout
+- iPad Rotatable
+- Left-side System Menu
