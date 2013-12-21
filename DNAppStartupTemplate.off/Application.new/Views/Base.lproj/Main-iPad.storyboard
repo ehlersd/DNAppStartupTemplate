@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4511" systemVersion="13A598" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="YM9-y4-QY4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation View Controller-->
+        <scene sceneID="50i-ZM-q3d">
+            <objects>
+                <navigationController storyboardIdentifier="contentController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="g1F-pE-Rdv" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yYI-Rb-Jom">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="246-8X-kEd" kind="relationship" relationship="rootViewController" id="3yh-R7-WLO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqa-sF-epW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-304" y="-382"/>
+        </scene>
+        <!--View Controller - Root View Controller-->
+        <scene sceneID="yyX-mf-DuI">
+            <objects>
+                <viewController storyboardIdentifier="menuController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xFF-08-1rW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wdj-W4-8Gp"/>
+                        <viewControllerLayoutGuide type="bottom" id="TzC-bF-5AC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bW6-zC-83n">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="sMk-28-kXB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RlI-UZ-Dyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1188" y="790"/>
+        </scene>
+        <!--I Pad Root View Controller-->
+        <scene sceneID="hOY-3S-6yj">
+            <objects>
+                <viewController storyboardIdentifier="rootController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ahd-qy-Hsp" customClass="iPadRootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cjJ-Vy-2EC"/>
+                        <viewControllerLayoutGuide type="bottom" id="BiT-EE-6KS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XnO-Id-bFu">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper.png" translatesAutoresizingMaskIntoConstraints="NO" id="qu4-aK-CIL">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4823529412" green="0.70196078429999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qu4-aK-CIL" secondAttribute="trailing" id="6lv-fx-3pC"/>
+                            <constraint firstItem="qu4-aK-CIL" firstAttribute="leading" secondItem="XnO-Id-bFu" secondAttribute="leading" id="HFP-y0-nYI"/>
+                            <constraint firstAttribute="bottom" secondItem="qu4-aK-CIL" secondAttribute="bottom" id="RUw-8q-hIC"/>
+                            <constraint firstItem="qu4-aK-CIL" firstAttribute="top" secondItem="XnO-Id-bFu" secondAttribute="top" id="hZl-Vj-rI9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBX-tC-8vO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1188" y="-382"/>
+        </scene>
+        <!--Main View Controller - APPLICATION-->
+        <scene sceneID="0L9-um-trx">
+            <objects>
+                <viewController definesPresentationContext="YES" id="246-8X-kEd" customClass="MainViewController" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper.png" id="kJU-h2-iP2">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <navigationItem key="navigationItem" title="APPLICATION" id="4E3-CT-M4X"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="twy-iK-kOq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="-382"/>
+        </scene>
+        <!--Desktop View Controller-->
+        <scene sceneID="Yp0-PU-Tuv">
+            <objects>
+                <viewController storyboardIdentifier="desktopController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YM9-y4-QY4" customClass="DesktopViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QI2-Bd-onJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="shP-hF-1oq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="abh-xu-ika">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rfx-nT-Reu">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Rfx-nT-Reu" secondAttribute="trailing" id="Q8R-6q-1ZZ"/>
+                            <constraint firstItem="Rfx-nT-Reu" firstAttribute="leading" secondItem="abh-xu-ika" secondAttribute="leading" id="jGk-vs-bWO"/>
+                            <constraint firstItem="shP-hF-1oq" firstAttribute="top" secondItem="Rfx-nT-Reu" secondAttribute="bottom" id="sDz-VN-sd3"/>
+                            <constraint firstItem="Rfx-nT-Reu" firstAttribute="top" secondItem="abh-xu-ika" secondAttribute="top" id="wnk-mq-MIt"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Wi-6Q-mmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-304" y="790"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Wallpaper.png" width="2048" height="2048"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

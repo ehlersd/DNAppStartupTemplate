@@ -1,0 +1,9 @@
+
+/* Class = "IBUISegmentedControl"; sHg-bL-EhI.segmentTitles[0] = "All"; ObjectID = "sHg-bL-EhI"; */
+"sHg-bL-EhI.segmentTitles[0]" = "All";
+
+/* Class = "IBUISegmentedControl"; sHg-bL-EhI.segmentTitles[1] = "Most Recent"; ObjectID = "sHg-bL-EhI"; */
+"sHg-bL-EhI.segmentTitles[1]" = "Most Recent";
+
+/* Class = "IBUISegmentedControl"; sHg-bL-EhI.segmentTitles[2] = "Most Popular"; ObjectID = "sHg-bL-EhI"; */
+"sHg-bL-EhI.segmentTitles[2]" = "Most Popular";

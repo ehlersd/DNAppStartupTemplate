@@ -1,0 +1,78 @@
+
+/* Class = "IBUILabel"; accessibilityHint = "Your username or password is incorrect."; ObjectID = "Kjn-pU-ARX"; */
+"Kjn-pU-ARX.accessibilityHint" = "Your username or password is incorrect.";
+
+/* Class = "IBUILabel"; accessibilityLabel = "Error"; ObjectID = "Kjn-pU-ARX"; */
+"Kjn-pU-ARX.accessibilityLabel" = "Error";
+
+/* Class = "IBUIButton"; accessibilityHint = "Tap to view some content without using an account"; ObjectID = "LBk-MD-kjW"; */
+"LBk-MD-kjW.accessibilityHint" = "Tap to view some content without using an account";
+
+/* Class = "IBUIButton"; accessibilityLabel = "I'm just visiting"; ObjectID = "LBk-MD-kjW"; */
+"LBk-MD-kjW.accessibilityLabel" = "I'm just visiting";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel Reset?"; ObjectID = "LBk-MD-kjW"; */
+"LBk-MD-kjW.normalTitle" = "Cancel Reset?";
+
+/* Class = "IBUITextField"; accessibilityHint = "Enter your email address to reset password"; ObjectID = "Pth-JD-7pU"; */
+"Pth-JD-7pU.accessibilityHint" = "Enter your email address to reset password";
+
+/* Class = "IBUITextField"; accessibilityLabel = "Email Address"; ObjectID = "Pth-JD-7pU"; */
+"Pth-JD-7pU.accessibilityLabel" = "Email Address";
+
+/* Class = "IBUITextField"; placeholder = "Email Address"; ObjectID = "Pth-JD-7pU"; */
+"Pth-JD-7pU.placeholder" = "Email Address";
+
+/* Class = "IBUITextField"; accessibilityHint = "Enter your password to login"; ObjectID = "Wzm-Fe-U8G"; */
+"Wzm-Fe-U8G.accessibilityHint" = "Enter your password to login";
+
+/* Class = "IBUITextField"; accessibilityLabel = "Password"; ObjectID = "Wzm-Fe-U8G"; */
+"Wzm-Fe-U8G.accessibilityLabel" = "Password";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "Wzm-Fe-U8G"; */
+"Wzm-Fe-U8G.placeholder" = "Password";
+
+/* Class = "IBUIButton"; accessibilityHint = "Tap to Create a new account"; ObjectID = "iBa-9k-AHC"; */
+"iBa-9k-AHC.accessibilityHint" = "Tap to Create a new account";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Sign Up"; ObjectID = "iBa-9k-AHC"; */
+"iBa-9k-AHC.accessibilityLabel" = "Sign Up";
+
+/* Class = "IBUIButton"; normalTitle = "SIGN UP"; ObjectID = "iBa-9k-AHC"; */
+"iBa-9k-AHC.normalTitle" = "SIGN UP";
+
+/* Class = "IBUIButton"; accessibilityHint = "Tap if you have Forgotten the Password to your existing account"; ObjectID = "iIe-AW-L8M"; */
+"iIe-AW-L8M.accessibilityHint" = "Tap if you have Forgotten the Password to your existing account";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Forgot your Password"; ObjectID = "iIe-AW-L8M"; */
+"iIe-AW-L8M.accessibilityLabel" = "Forgot your Password";
+
+/* Class = "IBUIButton"; normalTitle = "Forgot your password?"; ObjectID = "iIe-AW-L8M"; */
+"iIe-AW-L8M.normalTitle" = "Forgot your password?";
+
+/* Class = "IBUITextField"; accessibilityHint = "Enter your email address to login"; ObjectID = "ne1-JR-7Aa"; */
+"ne1-JR-7Aa.accessibilityHint" = "Enter your email address to login";
+
+/* Class = "IBUITextField"; accessibilityLabel = "Email Address"; ObjectID = "ne1-JR-7Aa"; */
+"ne1-JR-7Aa.accessibilityLabel" = "Email Address";
+
+/* Class = "IBUITextField"; placeholder = "Email Address"; ObjectID = "ne1-JR-7Aa"; */
+"ne1-JR-7Aa.placeholder" = "Email Address";
+
+/* Class = "IBUIButton"; accessibilityHint = "Tap to Sign In to your existing account"; ObjectID = "sfa-P8-TUg"; */
+"sfa-P8-TUg.accessibilityHint" = "Tap to Sign In to your existing account";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Sign In"; ObjectID = "sfa-P8-TUg"; */
+"sfa-P8-TUg.accessibilityLabel" = "Sign In";
+
+/* Class = "IBUIButton"; normalTitle = "SIGN IN"; ObjectID = "sfa-P8-TUg"; */
+"sfa-P8-TUg.normalTitle" = "SIGN IN";
+
+/* Class = "IBUIButton"; accessibilityHint = "Tap to Reset the Password to your existing account"; ObjectID = "t9C-aE-jlW"; */
+"t9C-aE-jlW.accessibilityHint" = "Tap to Reset the Password to your existing account";
+
+/* Class = "IBUIButton"; accessibilityLabel = "Reset Password"; ObjectID = "t9C-aE-jlW"; */
+"t9C-aE-jlW.accessibilityLabel" = "Reset Password";
+
+/* Class = "IBUIButton"; normalTitle = "RESET PASSWORD"; ObjectID = "t9C-aE-jlW"; */
+"t9C-aE-jlW.normalTitle" = "RESET PASSWORD";

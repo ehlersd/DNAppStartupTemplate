@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Device</key>
+	<dict>
+		<key>Port</key>
+		<string>12345</string>
+		<key>DatabasePaths-disable</key>
+		<array>
+			<string>/var/mobile/Applications/B1BE5C35-4F0D-489B-926E-7A7D9C56C990/Documents/Main.sqlite</string>
+		</array>
+	</dict>
+	<key>Simulator</key>
+	<dict>
+		<key>Port</key>
+		<string>12345</string>
+		<key>DatabasePaths-disable</key>
+		<array>
+			<string>/Users/ray/Library/Application Support/iPhone Simulator/6.1/Applications/2115C885-3159-48E7-B84E-049D1E4D2D72/Documents/Main.sqlite</string>
+		</array>
+	</dict>
+</dict>
+</plist>

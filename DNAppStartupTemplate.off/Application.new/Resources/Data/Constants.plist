@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tablePasswordReset</key>
+	<string>https://api.tableproject.org/api/v1/password-reset</string>
+	<key>tableOAuth2church</key>
+	<string>default</string>
+	<key>tableOAuth2server</key>
+	<string>qa4.tableprojectqa.org</string>
+	<key>tableOAuth2clientID</key>
+	<string>testclient</string>
+	<key>tableOAuth2clientSecret</key>
+	<string>testsecret</string>
+	<key>ResetConstants</key>
+	<true/>
+	<key>arEnabled</key>
+	<false/>
+	<key>appStoreID</key>
+	<string>-1</string>
+	<key>hockeyAppLiveID</key>
+	<string>-1</string>
+	<key>hockeyAppBetaID</key>
+	<string>e86893052c92f4cf0f4368130bd6a60d</string>
+	<key>flurryApiKey</key>
+	<string>C8568BW8FJ82R2FJMH79</string>
+	<key>crashlyticsApiKey</key>
+	<string>a6f4dca0bd83fbe311c31dcbbb18785016c6f423</string>
+	<key>colorDefaultTabContentBG</key>
+	<string>#00000000</string>
+	<key>flagBioTitlingForceUpper</key>
+	<true/>
+	<key>fontSystemMenuFAQName</key>
+	<string>GothamBook</string>
+	<key>fontSystemMenuFAQSize</key>
+	<string>28</string>
+	<key>sizePeoplePartnersThumbnailsWidth</key>
+	<string>148</string>
+	<key>sizePeoplePartnersThumbnailsHeight</key>
+	<string>126</string>
+	<key>noteNavBarCornerRadius</key>
+	<integer>0</integer>
+	<key>appTheme</key>
+	<string>Base</string>
+</dict>
+</plist>

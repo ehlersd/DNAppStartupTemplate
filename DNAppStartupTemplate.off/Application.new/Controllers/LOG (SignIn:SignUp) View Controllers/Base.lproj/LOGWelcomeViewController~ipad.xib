@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4511" systemVersion="13A598" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LOGWelcomeViewController">
+            <connections>
+                <outlet property="cancelResetBtn" destination="GPj-hl-kPi" id="S7d-WF-D3v"/>
+                <outlet property="contentView" destination="qia-sb-RNe" id="gnk-jn-uVX"/>
+                <outlet property="disabledSpinnerImg" destination="olh-fZ-bpZ" id="Won-2z-XzM"/>
+                <outlet property="disabledView" destination="n2K-sG-sWI" id="hdV-b7-qJE"/>
+                <outlet property="errorBanner" destination="NjS-jl-qOM" id="6Xk-x1-Bfr"/>
+                <outlet property="errorBannerBubbleView" destination="PtR-hI-JqF" id="n5q-Jq-AVt"/>
+                <outlet property="errorBannerLabel" destination="eDk-ea-SX8" id="yPU-By-vSx"/>
+                <outlet property="errorBannerNipple" destination="2pU-9l-QFP" id="TpQ-lp-b1a"/>
+                <outlet property="forgotPasswordBtn" destination="Zqi-YX-rD0" id="YjN-rk-obh"/>
+                <outlet property="logoImg" destination="nuL-Q5-wSP" id="JZr-PC-x4S"/>
+                <outlet property="passwordTxtfld" destination="kBK-OR-pxw" id="nWS-LZ-pdP"/>
+                <outlet property="resetPasswordBtn" destination="fae-qI-bIL" id="OaH-18-f8L"/>
+                <outlet property="resetUsernameTxtfld" destination="EWd-8o-DWf" id="7nq-Tz-zcH"/>
+                <outlet property="signInBtn" destination="0YW-Ux-Gib" id="OYZ-Fd-H4j"/>
+                <outlet property="signUpBtn" destination="1df-4n-J4T" id="c3R-3l-iyv"/>
+                <outlet property="usernameTxtfld" destination="99Q-mZ-vkn" id="02H-dS-R6C"/>
+                <outlet property="view" destination="1" id="MK8-z2-cTv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="center" id="qia-sb-RNe" userLabel="Content View">
+                    <rect key="frame" x="352" y="100" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" id="nuL-Q5-wSP">
+                            <rect key="frame" x="68" y="128" width="185" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="NjS-jl-qOM" userLabel="Error View">
+                            <rect key="frame" x="20" y="160" width="280" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="PtR-hI-JqF">
+                                    <rect key="frame" x="0.0" y="0.0" width="280" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="0.7843137255" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eDk-ea-SX8" customClass="DNLabel">
+                                    <rect key="frame" x="0.0" y="6" width="280" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <accessibility key="accessibilityConfiguration" hint="Your username or password is incorrect." label="Error">
+                                        <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                    </accessibility>
+                                    <attributedString key="attributedText">
+                                        <fragment content="Your username or password is incorrect.">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2pU-9l-QFP">
+                                    <rect key="frame" x="12" y="24" width="14" height="6"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                        </view>
+                        <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email Address" minimumFontSize="17" clearButtonMode="whileEditing" id="99Q-mZ-vkn" customClass="SHEmailValidationTextField">
+                            <rect key="frame" x="320" y="196" width="280" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <accessibility key="accessibilityConfiguration" hint="Enter your email address to login" label="Email Address"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" id="kBK-OR-pxw" customClass="DNTextField">
+                            <rect key="frame" x="320" y="258" width="280" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <accessibility key="accessibilityConfiguration" hint="Enter your password to login" label="Password"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email Address" minimumFontSize="17" clearButtonMode="whileEditing" id="EWd-8o-DWf" customClass="SHEmailValidationTextField">
+                            <rect key="frame" x="320" y="196" width="280" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <accessibility key="accessibilityConfiguration" hint="Enter your email address to reset your password" label="Email Address"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0YW-Ux-Gib">
+                            <rect key="frame" x="20" y="358" width="280" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to Sign In to your existing account" label="Sign In"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <state key="normal" title="SIGN IN">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="signInAction:" destination="-1" eventType="touchUpInside" id="yzU-uU-Mkc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fae-qI-bIL">
+                            <rect key="frame" x="20" y="259" width="280" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to Reset the Password to your existing account" label="Reset Password"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <state key="normal" title="RESET PASSWORD">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="resetPasswordAction:" destination="-1" eventType="touchUpInside" id="PKB-Ct-8KS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1df-4n-J4T">
+                            <rect key="frame" x="20" y="432" width="280" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to Create a new account" label="Sign Up"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <state key="normal" title="SIGN UP">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="signUpAction:" destination="-1" eventType="touchUpInside" id="i0V-cX-iow"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zqi-YX-rD0">
+                            <rect key="frame" x="20" y="510" width="280" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap if you have Forgotten the Password to your existing account" label="Forgot your Password"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <state key="normal" title="Forgot your password?">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="forgotPasswordAction:" destination="-1" eventType="touchUpInside" id="NTf-gg-sDw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GPj-hl-kPi">
+                            <rect key="frame" x="20" y="510" width="280" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" hint="Tap to view some content without using an account" label="I'm just visiting"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <state key="normal" title="Cancel Reset?">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelResetAction:" destination="-1" eventType="touchUpInside" id="QVv-eC-tBe"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </view>
+                <view alpha="0.0" contentMode="scaleToFill" id="n2K-sG-sWI" userLabel="Disabled View">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spinner.png" id="olh-fZ-bpZ">
+                            <rect key="frame" x="489" y="335" width="46" height="46"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo.png" width="185" height="61"/>
+        <image name="Spinner.png" width="46" height="46"/>
+    </resources>
+</document>
