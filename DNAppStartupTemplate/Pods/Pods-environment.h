@@ -82,13 +82,13 @@
 #define COCOAPODS_POD_AVAILABLE_DoubleNode
 #define COCOAPODS_VERSION_MAJOR_DoubleNode 0
 #define COCOAPODS_VERSION_MINOR_DoubleNode 3
-#define COCOAPODS_VERSION_PATCH_DoubleNode 2
+#define COCOAPODS_VERSION_PATCH_DoubleNode 3
 
 // DoubleNode/ColorUtils
 #define COCOAPODS_POD_AVAILABLE_DoubleNode_ColorUtils
 #define COCOAPODS_VERSION_MAJOR_DoubleNode_ColorUtils 0
 #define COCOAPODS_VERSION_MINOR_DoubleNode_ColorUtils 3
-#define COCOAPODS_VERSION_PATCH_DoubleNode_ColorUtils 2
+#define COCOAPODS_VERSION_PATCH_DoubleNode_ColorUtils 3
 
 // EZForm
 #define COCOAPODS_POD_AVAILABLE_EZForm
@@ -172,13 +172,13 @@
 #define COCOAPODS_POD_AVAILABLE_REFrostedViewController
 #define COCOAPODS_VERSION_MAJOR_REFrostedViewController 2
 #define COCOAPODS_VERSION_MINOR_REFrostedViewController 3
-#define COCOAPODS_VERSION_PATCH_REFrostedViewController 2
+#define COCOAPODS_VERSION_PATCH_REFrostedViewController 4
 
 // RESideMenu
 #define COCOAPODS_POD_AVAILABLE_RESideMenu
 #define COCOAPODS_VERSION_MAJOR_RESideMenu 3
-#define COCOAPODS_VERSION_MINOR_RESideMenu 3
-#define COCOAPODS_VERSION_PATCH_RESideMenu 1
+#define COCOAPODS_VERSION_MINOR_RESideMenu 4
+#define COCOAPODS_VERSION_PATCH_RESideMenu 0
 
 // ReactiveCocoa
 #define COCOAPODS_POD_AVAILABLE_ReactiveCocoa
@@ -238,7 +238,7 @@
 #define COCOAPODS_POD_AVAILABLE_YAJL_Entity
 #define COCOAPODS_VERSION_MAJOR_YAJL_Entity 1
 #define COCOAPODS_VERSION_MINOR_YAJL_Entity 0
-#define COCOAPODS_VERSION_PATCH_YAJL_Entity 0
+#define COCOAPODS_VERSION_PATCH_YAJL_Entity 1
 
 // yajl
 #define COCOAPODS_POD_AVAILABLE_yajl

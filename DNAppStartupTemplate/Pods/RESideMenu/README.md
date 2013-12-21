@@ -20,7 +20,7 @@ Build and run the `RESideMenuExample` project in Xcode to see `RESideMenu` in ac
 ### CocoaPods
 
 The recommended approach for installating `RESideMenu` is via the [CocoaPods](http://cocoapods.org/) package manager, as it provides flexible dependency management and dead simple installation.
-For best results, it is recommended that you install via CocoaPods >= **0.27.0** using Git >= **1.8.0** installed via Homebrew.
+For best results, it is recommended that you install via CocoaPods >= **0.28.0** using Git >= **1.8.0** installed via Homebrew.
 
 Install CocoaPods if not already available:
 
@@ -41,7 +41,7 @@ Edit your Podfile and add RESideMenu:
 
 ``` bash
 platform :ios, '6.0'
-pod 'RESideMenu', '~> 3.3.1'
+pod 'RESideMenu', '~> 3.4'
 ```
 
 Install into your Xcode project:
@@ -97,13 +97,11 @@ Present the view controller:
 5. Add a method `awakeFromNib` to `DEMORootViewController.m` with the following code:
 
 ```objective-c
-
 - (void)awakeFromNib
 {
     self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentController"];
     self.menuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
 }
-
 ```
 
 ## Customization
@@ -114,6 +112,7 @@ You can customize the following properties of `RESideMenu`:
 @property (assign, readwrite, nonatomic) NSTimeInterval animationDuration;
 @property (strong, readwrite, nonatomic) UIImage *backgroundImage;
 @property (assign, readwrite, nonatomic) BOOL panGestureEnabled;
+@property (assign, readwrite, nonatomic) BOOL interactivePopGestureRecognizerEnabled;
 @property (assign, readwrite, nonatomic) BOOL scaleContentView;
 @property (assign, readwrite, nonatomic) BOOL scaleBackgroundImageView;
 @property (assign, readwrite, nonatomic) CGFloat contentViewScaleValue;
@@ -124,6 +123,17 @@ You can customize the following properties of `RESideMenu`:
 @property (strong, readwrite, nonatomic) id parallaxContentMinimumRelativeValue;
 @property (strong, readwrite, nonatomic) id parallaxContentMaximumRelativeValue;
 @property (assign, readwrite, nonatomic) BOOL parallaxEnabled;
+@property (assign, readwrite, nonatomic) BOOL bouncesHorizontally;
+```
+
+You can implement `RESideMenuDelegate` protocol to receive the following messages:
+
+```objective-c
+- (void)sideMenu:(RESideMenu *)sideMenu didRecognizePanGesture:(UIPanGestureRecognizer *)recognizer;
+- (void)sideMenu:(RESideMenu *)sideMenu willShowMenuViewController:(UIViewController *)menuViewController;
+- (void)sideMenu:(RESideMenu *)sideMenu didShowMenuViewController:(UIViewController *)menuViewController;
+- (void)sideMenu:(RESideMenu *)sideMenu willHideMenuViewController:(UIViewController *)menuViewController;
+- (void)sideMenu:(RESideMenu *)sideMenu didHideMenuViewController:(UIViewController *)menuViewController;
 ```
 
 ## Contact

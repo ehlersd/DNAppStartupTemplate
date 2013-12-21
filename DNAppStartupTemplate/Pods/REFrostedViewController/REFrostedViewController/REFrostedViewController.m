@@ -134,7 +134,22 @@
 
 - (void)setContentViewController:(UIViewController *)contentViewController
 {
+    if (!_contentViewController) {
+        _contentViewController = contentViewController;
+        return;
+    }
+    
+    [_contentViewController removeFromParentViewController];
+    [_contentViewController.view removeFromSuperview];
+    
+    if (contentViewController) {
+        [self addChildViewController:contentViewController];
+        contentViewController.view.frame = self.containerViewController.view.frame;
+        [self.view insertSubview:contentViewController.view atIndex:0];
+        [contentViewController didMoveToParentViewController:self];
+    }
     _contentViewController = contentViewController;
+    
     if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]) {
         [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
     }
@@ -149,7 +164,7 @@
     CGRect frame = _menuViewController.view.frame;
     [_menuViewController willMoveToParentViewController:nil];
     [_menuViewController removeFromParentViewController];
-     [_menuViewController.view removeFromSuperview];
+    [_menuViewController.view removeFromSuperview];
     _menuViewController = menuViewController;
     if (!_menuViewController)
         return;
@@ -202,18 +217,18 @@
     self.visible = YES;
 }
 
-- (void)hideMenuViewControllerWithCompletitionHandler:(void(^)(void))completition
+- (void)hideMenuViewControllerWithCompletionHandler:(void(^)(void))completionHandler
 {
     if (!self.liveBlur) {
         self.containerViewController.screenshotImage = [[self.contentViewController.view re_screenshot] re_applyBlurWithRadius:self.blurRadius tintColor:self.blurTintColor saturationDeltaFactor:self.blurSaturationDeltaFactor maskImage:nil];
         [self.containerViewController refreshBackgroundImage];
     }
-    [self.containerViewController hideWithCompletitionHandler:completition];
+    [self.containerViewController hideWithCompletionHandler:completionHandler];
 }
 
 - (void)hideMenuViewController
 {
-	[self hideMenuViewControllerWithCompletitionHandler:^{}];
+	[self hideMenuViewControllerWithCompletionHandler:nil];
 }
 
 - (void)panGestureRecognized:(UIPanGestureRecognizer *)recognizer

@@ -60,6 +60,7 @@
 {
     _animationDuration = 0.35f;
     _panGestureEnabled = YES;
+    _interactivePopGestureRecognizerEnabled = YES;
   
     _scaleContentView      = YES;
     _contentViewScaleValue = 0.7f;
@@ -72,6 +73,8 @@
     
     _parallaxContentMinimumRelativeValue = @(-25);
     _parallaxContentMaximumRelativeValue = @(25);
+
+    _bouncesHorizontally = YES;
 }
 
 - (id)initWithContentViewController:(UIViewController *)contentViewController menuViewController:(UIViewController *)menuViewController
@@ -293,6 +296,15 @@
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
 {
+    IF_IOS7_OR_GREATER(
+       if (self.interactivePopGestureRecognizerEnabled && [self.contentViewController isKindOfClass:[UINavigationController class]]) {
+           UINavigationController *navigationController = (UINavigationController *)self.contentViewController;
+           if (navigationController.viewControllers.count > 1 && navigationController.interactivePopGestureRecognizer.enabled) {
+               return NO;
+           }
+       }
+    );
+  
     if (self.panFromEdge && [gestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]] && !self.visible) {
         CGPoint point = [touch locationInView:gestureRecognizer.view];
         if (point.x < 30) {
@@ -339,6 +351,12 @@
         CGFloat contentViewScale = self.scaleContentView ? 1 - ((1 - self.contentViewScaleValue) * delta) : 1;
         CGFloat backgroundViewScale = 1.7f - (0.7f * delta);
         CGFloat menuViewScale = 1.5f - (0.5f * delta);
+
+        if (!_bouncesHorizontally) {
+            contentViewScale = MAX(contentViewScale, self.contentViewScaleValue);
+            backgroundViewScale = MAX(backgroundViewScale, 1.0);
+            menuViewScale = MAX(menuViewScale, 1.0);
+        }
         
         self.menuViewController.view.alpha = delta;
         if (self.scaleBackgroundImageView) {
@@ -358,6 +376,10 @@
             }
             self.contentViewController.view.frame = self.view.bounds;
         } else {
+            if (!_bouncesHorizontally && self.visible) {
+                point.x = MIN(0.0, point.x);
+                [recognizer setTranslation:point inView:self.view];
+            }
             self.contentViewController.view.transform = CGAffineTransformMakeScale(contentViewScale, contentViewScale);
             self.contentViewController.view.transform = CGAffineTransformTranslate(self.contentViewController.view.transform, point.x, 0);
         }

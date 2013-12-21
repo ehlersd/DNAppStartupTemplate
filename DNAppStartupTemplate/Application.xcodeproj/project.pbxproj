@@ -43,30 +43,17 @@
 		AD32EB1618556FEE0091F7BB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32EB1518556FED0091F7BB /* MessageUI.framework */; };
 		AD32EB1718556FF70091F7BB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32EB1518556FED0091F7BB /* MessageUI.framework */; };
 		AD3F2B7F181B085000AA487C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9BF4B61743923E008A3147 /* InfoPlist.strings */; };
-		AD3F2B80181B085E00AA487C /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2496181AF95C005E20DE /* Main-iPad.storyboard */; };
-		AD3F2B83181B086400AA487C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2493181AF951005E20DE /* Main.storyboard */; };
-		AD3F2B84181B086A00AA487C /* LOGWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2D24A3181AF9BA005E20DE /* LOGWelcomeViewController.xib */; };
-		AD3F2B85181B086A00AA487C /* LOGWelcomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2D24AC181AFE5B005E20DE /* LOGWelcomeViewController~ipad.xib */; };
 		AD481D3C17F4D20000E564F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD481D3B17F4D20000E564F6 /* MobileCoreServices.framework */; };
 		AD4FC644183C01FE002DE1BB /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4FC641183C01FE002DE1BB /* Logo.png */; };
 		AD4FC645183C01FE002DE1BB /* Spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4FC642183C01FE002DE1BB /* Spinner.png */; };
 		AD4FC646183C01FE002DE1BB /* Spinner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4FC643183C01FE002DE1BB /* Spinner@2x.png */; };
 		AD56452318219EC300B6C439 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD56452218219EC300B6C439 /* README.md */; };
-		AD6E1D551840073F00965839 /* DesktopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E1D541840073F00965839 /* DesktopViewController.m */; };
 		AD6E1D59184057B400965839 /* AppDelegate_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E1D511840032500965839 /* AppDelegate_Tests.m */; };
 		AD723DDE185E2ABD00504CAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD723DDD185E2ABD00504CAA /* Images.xcassets */; };
-		AD723DEA185E64EB00504CAA /* CDConstantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD723DE9185E64EB00504CAA /* CDConstantModel.m */; };
-		AD723DED185E656C00504CAA /* CDConstantsDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD723DEC185E656C00504CAA /* CDConstantsDataModel.m */; };
-		AD723DF61860032700504CAA /* CDConstantsDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD723DEC185E656C00504CAA /* CDConstantsDataModel.m */; };
 		AD752609182D84C6004DBE4C /* imgLOGWelcomeViewCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = AD752607182D84C6004DBE4C /* imgLOGWelcomeViewCircle.png */; };
 		AD75260A182D84C6004DBE4C /* imgLOGWelcomeViewCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD752608182D84C6004DBE4C /* imgLOGWelcomeViewCircle@2x.png */; };
 		AD752617182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AD752615182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook.png */; };
 		AD752618182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD752616182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook@2x.png */; };
-		AD7D26671819C814000C5B6C /* iPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26601819C814000C5B6C /* iPadRootViewController.m */; };
-		AD7D26681819C814000C5B6C /* iPhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26621819C814000C5B6C /* iPhoneRootViewController.m */; };
-		AD7D26691819C814000C5B6C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26641819C814000C5B6C /* MainViewController.m */; };
-		AD7D266A1819C814000C5B6C /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26661819C814000C5B6C /* NavigationViewController.m */; };
-		AD7D26701819C886000C5B6C /* LOGWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D266E1819C886000C5B6C /* LOGWelcomeViewController.m */; };
 		AD7D26731819C9AB000C5B6C /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7D26721819C9AB000C5B6C /* Logo@2x.png */; };
 		AD7FEE5717F22BE700F21A4D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9EC90717EBA5AC00BDBFA7 /* CoreData.framework */; };
 		AD7FEE5917F22BF700F21A4D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7FEE5817F22BF700F21A4D /* libsqlite3.dylib */; };
@@ -76,15 +63,38 @@
 		AD7FEE6817F3546500F21A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9BF4AF1743923E008A3147 /* Foundation.framework */; };
 		AD7FEE6917F3546500F21A4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9BF4AD1743923E008A3147 /* UIKit.framework */; };
 		AD8489991860C85500302C5C /* Constants.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD8489971860C85500302C5C /* Constants.xcdatamodeld */; };
-		AD84899D1860CD5F00302C5C /* CDOConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = AD84899C1860CD5F00302C5C /* CDOConstant.m */; };
 		AD84899F186105FC00302C5C /* Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = AD84899E186105FC00302C5C /* Wallpaper.png */; };
+		AD8489AB18654F5F00302C5C /* CDConstantsDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489AA18654F5F00302C5C /* CDConstantsDataModel.m */; };
+		AD8489B218654F6B00302C5C /* CDOConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489AE18654F6B00302C5C /* CDOConstant.m */; };
+		AD8489B318654F6B00302C5C /* CDConstantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489B118654F6B00302C5C /* CDConstantModel.m */; };
+		AD8489BF18654F8400302C5C /* DesktopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489B618654F8400302C5C /* DesktopViewController.m */; };
+		AD8489C018654F8400302C5C /* iPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489B818654F8400302C5C /* iPadRootViewController.m */; };
+		AD8489C118654F8400302C5C /* iPhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489BA18654F8400302C5C /* iPhoneRootViewController.m */; };
+		AD8489C218654F8400302C5C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489BC18654F8400302C5C /* MainViewController.m */; };
+		AD8489C318654F8400302C5C /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489BE18654F8400302C5C /* NavigationViewController.m */; };
+		AD8489C418654F8D00302C5C /* CDConstantsDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489AA18654F5F00302C5C /* CDConstantsDataModel.m */; };
+		AD8489C518654F8D00302C5C /* CDConstantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489B118654F6B00302C5C /* CDConstantModel.m */; };
+		AD8489C618654F8D00302C5C /* CDOConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489AE18654F6B00302C5C /* CDOConstant.m */; };
+		AD8489C718654F9800302C5C /* DesktopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489B618654F8400302C5C /* DesktopViewController.m */; };
+		AD8489C818654F9800302C5C /* iPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489B818654F8400302C5C /* iPadRootViewController.m */; };
+		AD8489C918654F9800302C5C /* iPhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489BA18654F8400302C5C /* iPhoneRootViewController.m */; };
+		AD8489CA18654F9800302C5C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489BC18654F8400302C5C /* MainViewController.m */; };
+		AD8489CB18654F9800302C5C /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489BE18654F8400302C5C /* NavigationViewController.m */; };
+		AD8489D918654FAB00302C5C /* LOGWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8489CD18654FAB00302C5C /* LOGWelcomeViewController.xib */; };
+		AD8489DA18654FAB00302C5C /* LOGWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8489CD18654FAB00302C5C /* LOGWelcomeViewController.xib */; };
+		AD8489DB18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8489CF18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib */; };
+		AD8489DC18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8489CF18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib */; };
+		AD8489E118654FAB00302C5C /* LOGWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489D818654FAB00302C5C /* LOGWelcomeViewController.m */; };
+		AD8489E218654FAB00302C5C /* LOGWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8489D818654FAB00302C5C /* LOGWelcomeViewController.m */; };
+		AD8489F218654FEE00302C5C /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8489E818654FEE00302C5C /* Main-iPad.storyboard */; };
+		AD8489F318654FEE00302C5C /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8489E818654FEE00302C5C /* Main-iPad.storyboard */; };
+		AD8489F418654FEE00302C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8489EA18654FEE00302C5C /* Main.storyboard */; };
+		AD8489F518654FEE00302C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8489EA18654FEE00302C5C /* Main.storyboard */; };
 		AD879E9C17F0A3010015AF48 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD879E9B17F0A3010015AF48 /* QuartzCore.framework */; };
 		ADA88630184548D0004BDAD1 /* GTMCodeCoverage_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8862F184548D0004BDAD1 /* GTMCodeCoverage_Tests.m */; };
 		ADEA29EA1843CF7200A2FDA7 /* KSScreenshotAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AD43187B1843C8C700BDF4E5 /* KSScreenshotAction.m */; };
 		ADED10591843D06D00D26466 /* KSScreenshotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD43187D1843C8C700BDF4E5 /* KSScreenshotManager.m */; };
 		ADED108B184423A900D26466 /* KZColorPickerAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6343817F09CB400CD6740 /* KZColorPickerAlphaSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ADED108C184423A900D26466 /* LOGWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D266E1819C886000C5B6C /* LOGWelcomeViewController.m */; };
-		ADED108D184423A900D26466 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26641819C814000C5B6C /* MainViewController.m */; };
 		ADED1090184423A900D26466 /* DTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEE26EC1816FA90002CE729 /* DTAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADED1092184423A900D26466 /* UIImage+iPhone5.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6344A17F09CB400CD6740 /* UIImage+iPhone5.m */; };
 		ADED1093184423A900D26466 /* KZUnitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6344017F09CB400CD6740 /* KZUnitSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -93,19 +103,15 @@
 		ADED1098184423A900D26466 /* KSScreenshotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD43187D1843C8C700BDF4E5 /* KSScreenshotManager.m */; };
 		ADED1099184423A900D26466 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6344417F09CB400CD6740 /* UIColor-Expanded.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADED109B184423A900D26466 /* KZColorPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6343C17F09CB400CD6740 /* KZColorPickerHSWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ADED109C184423A900D26466 /* iPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26601819C814000C5B6C /* iPadRootViewController.m */; };
-		ADED109F184423A900D26466 /* DesktopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E1D541840073F00965839 /* DesktopViewController.m */; };
 		ADED10A0184423A900D26466 /* KZColorPickerSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6343E17F09CB400CD6740 /* KZColorPickerSwatchView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADED10A2184423A900D26466 /* ZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF633BB17F098FB00CD6740 /* ZoomAnimationController.m */; };
 		ADED10A4184423A900D26466 /* DropAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF633B917F098FB00CD6740 /* DropAnimationController.m */; };
-		ADED10A6184423A900D26466 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26661819C814000C5B6C /* NavigationViewController.m */; };
 		ADED10A7184423A900D26466 /* UIColor+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6344717F09CB400CD6740 /* UIColor+Alpha.m */; };
 		ADED10A8184423A900D26466 /* KSScreenshotAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AD43187B1843C8C700BDF4E5 /* KSScreenshotAction.m */; };
 		ADED10A9184423A900D26466 /* KZColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6343617F09CB400CD6740 /* KZColorPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADED10AC184423A900D26466 /* KZColorCompareView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6343417F09CB400CD6740 /* KZColorCompareView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADED10AE184423A900D26466 /* KZColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6343A17F09CB400CD6740 /* KZColorPickerBrightnessSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADED10AF184423A900D26466 /* DTProgressStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEE26EE1816FA90002CE729 /* DTProgressStatus.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ADED10B1184423A900D26466 /* iPhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D26621819C814000C5B6C /* iPhoneRootViewController.m */; };
 		ADED10B3184423A900D26466 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD481D3B17F4D20000E564F6 /* MobileCoreServices.framework */; };
 		ADED10B4184423A900D26466 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7FEE5817F22BF700F21A4D /* libsqlite3.dylib */; };
 		ADED10B5184423A900D26466 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9EC90717EBA5AC00BDBFA7 /* CoreData.framework */; };
@@ -119,7 +125,6 @@
 		ADED10BE184423A900D26466 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7FEE5A17F22E5200F21A4D /* Crashlytics.framework */; };
 		ADED10C0184423A900D26466 /* checkerboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF6342E17F09CB400CD6740 /* checkerboard@2x.png */; };
 		ADED10C1184423A900D26466 /* imgLOGWelcomeViewFacebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD752616182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook@2x.png */; };
-		ADED10C2184423A900D26466 /* LOGWelcomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2D24AC181AFE5B005E20DE /* LOGWelcomeViewController~ipad.xib */; };
 		ADED10C3184423A900D26466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9BF4B61743923E008A3147 /* InfoPlist.strings */; };
 		ADED10C4184423A900D26466 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D247F181AD9AB005E20DE /* ProximaNova-LightItalic.otf */; };
 		ADED10C5184423A900D26466 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7D26721819C9AB000C5B6C /* Logo@2x.png */; };
@@ -139,12 +144,10 @@
 		ADED10DB184423A900D26466 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2481181AD9AB005E20DE /* ProximaNova-RegularItalic.otf */; };
 		ADED10DE184423A900D26466 /* btnErrorBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = AD008515183AB4D600F6F428 /* btnErrorBanner.png */; };
 		ADED10E3184423A900D26466 /* colorPickerKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF6343017F09CB400CD6740 /* colorPickerKnob@2x.png */; };
-		ADED10E5184423A900D26466 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2496181AF95C005E20DE /* Main-iPad.storyboard */; };
 		ADED10E7184423A900D26466 /* btnErrorNipple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD008512183AB1BF00F6F428 /* btnErrorNipple@2x.png */; };
 		ADED10E8184423A900D26466 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D247B181AD9AB005E20DE /* ProximaNova-Bold.otf */; };
 		ADED10E9184423A900D26466 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2482181AD9AB005E20DE /* ProximaNova-Semibold.otf */; };
 		ADED10EA184423A900D26466 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF6342D17F09CB400CD6740 /* checkerboard.png */; };
-		ADED10EB184423A900D26466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2493181AF951005E20DE /* Main.storyboard */; };
 		ADED10EC184423A900D26466 /* release.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADF9F5B718198CAC006DE995 /* release.txt */; };
 		ADED10ED184423A900D26466 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D247E181AD9AB005E20DE /* ProximaNova-Light.otf */; };
 		ADED10EE184423A900D26466 /* btnErrorNipple.png in Resources */ = {isa = PBXBuildFile; fileRef = AD008511183AB1BF00F6F428 /* btnErrorNipple.png */; };
@@ -153,7 +156,6 @@
 		ADED10F5184423A900D26466 /* Spinner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4FC643183C01FE002DE1BB /* Spinner@2x.png */; };
 		ADED10F6184423A900D26466 /* Spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4FC642183C01FE002DE1BB /* Spinner.png */; };
 		ADED10F7184423A900D26466 /* btnNavBarMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD077656181EEEA700CF8A93 /* btnNavBarMenu@2x.png */; };
-		ADED10FB184423A900D26466 /* LOGWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2D24A3181AF9BA005E20DE /* LOGWelcomeViewController.xib */; };
 		ADED10FC184423A900D26466 /* btnErrorBanner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD008516183AB4D600F6F428 /* btnErrorBanner@2x.png */; };
 		ADED10FD184423A900D26466 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D247A181AD9AB005E20DE /* ProximaNova-Black.otf */; };
 		ADED11081844248D00D26466 /* libMonkeyTalk-1.0.62.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADED11071844248D00D26466 /* libMonkeyTalk-1.0.62.a */; };
@@ -240,16 +242,10 @@
 		AD2D2481181AD9AB005E20DE /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
 		AD2D2482181AD9AB005E20DE /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
 		AD2D2483181AD9AB005E20DE /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
-		AD2D249F181AF982005E20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD2D24A0181AF982005E20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
-		AD2D24A2181AF9BA005E20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LOGWelcomeViewController.xib; sourceTree = "<group>"; };
 		AD2D24A4181AFA4A005E20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AD2D24AB181AFE5B005E20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/LOGWelcomeViewController~ipad.xib"; sourceTree = "<group>"; };
 		AD32EB111855269D0091F7BB /* btnSuccessNipple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSuccessNipple.png; sourceTree = "<group>"; };
 		AD32EB121855269D0091F7BB /* btnSuccessNipple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnSuccessNipple@2x.png"; sourceTree = "<group>"; };
 		AD32EB1518556FED0091F7BB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		AD3F2B88181B106F00AA487C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		AD3F2B89181B106F00AA487C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Main-iPad.strings"; sourceTree = "<group>"; };
 		AD3F2B8C181B106F00AA487C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD43187A1843C8C700BDF4E5 /* KSScreenshotAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSScreenshotAction.h; path = KSScreenshotManager/KSScreenshotAction.h; sourceTree = "<group>"; };
 		AD43187B1843C8C700BDF4E5 /* KSScreenshotAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSScreenshotAction.m; path = KSScreenshotManager/KSScreenshotAction.m; sourceTree = "<group>"; };
@@ -263,28 +259,12 @@
 		AD4FC643183C01FE002DE1BB /* Spinner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spinner@2x.png"; sourceTree = "<group>"; };
 		AD56452218219EC300B6C439 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		AD6E1D511840032500965839 /* AppDelegate_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Tests.m; sourceTree = "<group>"; };
-		AD6E1D531840073F00965839 /* DesktopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesktopViewController.h; sourceTree = "<group>"; };
-		AD6E1D541840073F00965839 /* DesktopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesktopViewController.m; sourceTree = "<group>"; };
 		AD6E1D561840093300965839 /* DesktopViewController_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesktopViewController_Tests.m; sourceTree = "<group>"; };
 		AD723DDD185E2ABD00504CAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AD723DE8185E64EB00504CAA /* CDConstantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConstantModel.h; sourceTree = "<group>"; };
-		AD723DE9185E64EB00504CAA /* CDConstantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDConstantModel.m; sourceTree = "<group>"; };
-		AD723DEB185E656C00504CAA /* CDConstantsDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConstantsDataModel.h; sourceTree = "<group>"; };
-		AD723DEC185E656C00504CAA /* CDConstantsDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDConstantsDataModel.m; sourceTree = "<group>"; };
 		AD752607182D84C6004DBE4C /* imgLOGWelcomeViewCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgLOGWelcomeViewCircle.png; sourceTree = "<group>"; };
 		AD752608182D84C6004DBE4C /* imgLOGWelcomeViewCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgLOGWelcomeViewCircle@2x.png"; sourceTree = "<group>"; };
 		AD752615182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgLOGWelcomeViewFacebook.png; sourceTree = "<group>"; };
 		AD752616182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgLOGWelcomeViewFacebook@2x.png"; sourceTree = "<group>"; };
-		AD7D265F1819C814000C5B6C /* iPadRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadRootViewController.h; sourceTree = "<group>"; };
-		AD7D26601819C814000C5B6C /* iPadRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadRootViewController.m; sourceTree = "<group>"; };
-		AD7D26611819C814000C5B6C /* iPhoneRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneRootViewController.h; sourceTree = "<group>"; };
-		AD7D26621819C814000C5B6C /* iPhoneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneRootViewController.m; sourceTree = "<group>"; };
-		AD7D26631819C814000C5B6C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		AD7D26641819C814000C5B6C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		AD7D26651819C814000C5B6C /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
-		AD7D26661819C814000C5B6C /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
-		AD7D266D1819C886000C5B6C /* LOGWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOGWelcomeViewController.h; sourceTree = "<group>"; };
-		AD7D266E1819C886000C5B6C /* LOGWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOGWelcomeViewController.m; sourceTree = "<group>"; };
 		AD7D26721819C9AB000C5B6C /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
 		AD7EAC8F17EBD82600CB719B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		AD7EAC9117EBD82D00CB719B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -296,14 +276,37 @@
 		AD7FEE6C17F3546500F21A4D /* Application Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Application Tests-Info.plist"; sourceTree = "<group>"; };
 		AD7FEE7217F3546500F21A4D /* Application Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Application Tests-Prefix.pch"; sourceTree = "<group>"; };
 		AD8489981860C85500302C5C /* Constants.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Constants.xcdatamodel; sourceTree = "<group>"; };
-		AD84899B1860CD5F00302C5C /* CDOConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDOConstant.h; sourceTree = "<group>"; };
-		AD84899C1860CD5F00302C5C /* CDOConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDOConstant.m; sourceTree = "<group>"; };
 		AD84899E186105FC00302C5C /* Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallpaper.png; sourceTree = "<group>"; };
-		AD8489A11862503B00302C5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LOGWelcomeViewController.strings; sourceTree = "<group>"; };
-		AD8489A31862503D00302C5C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LOGWelcomeViewController.strings; sourceTree = "<group>"; };
-		AD8489A51862504F00302C5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/LOGWelcomeViewController~ipad.strings"; sourceTree = "<group>"; };
-		AD8489A71862505000302C5C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/LOGWelcomeViewController~ipad.strings"; sourceTree = "<group>"; };
-		AD8489A81862560000302C5C /* DNDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNDataModel.h; path = Pods/DoubleNode/Classes/DNDataModel.h; sourceTree = "<group>"; };
+		AD8489A918654F5F00302C5C /* CDConstantsDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConstantsDataModel.h; sourceTree = "<group>"; };
+		AD8489AA18654F5F00302C5C /* CDConstantsDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDConstantsDataModel.m; sourceTree = "<group>"; };
+		AD8489AD18654F6B00302C5C /* CDOConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDOConstant.h; sourceTree = "<group>"; };
+		AD8489AE18654F6B00302C5C /* CDOConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDOConstant.m; sourceTree = "<group>"; };
+		AD8489B018654F6B00302C5C /* CDConstantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConstantModel.h; sourceTree = "<group>"; };
+		AD8489B118654F6B00302C5C /* CDConstantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDConstantModel.m; sourceTree = "<group>"; };
+		AD8489B518654F8400302C5C /* DesktopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesktopViewController.h; sourceTree = "<group>"; };
+		AD8489B618654F8400302C5C /* DesktopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesktopViewController.m; sourceTree = "<group>"; };
+		AD8489B718654F8400302C5C /* iPadRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadRootViewController.h; sourceTree = "<group>"; };
+		AD8489B818654F8400302C5C /* iPadRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadRootViewController.m; sourceTree = "<group>"; };
+		AD8489B918654F8400302C5C /* iPhoneRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneRootViewController.h; sourceTree = "<group>"; };
+		AD8489BA18654F8400302C5C /* iPhoneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneRootViewController.m; sourceTree = "<group>"; };
+		AD8489BB18654F8400302C5C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AD8489BC18654F8400302C5C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AD8489BD18654F8400302C5C /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		AD8489BE18654F8400302C5C /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		AD8489CE18654FAB00302C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LOGWelcomeViewController.xib; sourceTree = "<group>"; };
+		AD8489D018654FAB00302C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/LOGWelcomeViewController~ipad.xib"; sourceTree = "<group>"; };
+		AD8489D718654FAB00302C5C /* LOGWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOGWelcomeViewController.h; sourceTree = "<group>"; };
+		AD8489D818654FAB00302C5C /* LOGWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOGWelcomeViewController.m; sourceTree = "<group>"; };
+		AD8489E318654FC100302C5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LOGWelcomeViewController.strings; sourceTree = "<group>"; };
+		AD8489E418654FC400302C5C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LOGWelcomeViewController.strings; sourceTree = "<group>"; };
+		AD8489E518654FCA00302C5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/LOGWelcomeViewController~ipad.strings"; sourceTree = "<group>"; };
+		AD8489E618654FCC00302C5C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/LOGWelcomeViewController~ipad.strings"; sourceTree = "<group>"; };
+		AD8489E918654FEE00302C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
+		AD8489EB18654FEE00302C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD8489EC18654FEE00302C5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
+		AD8489EF18654FEE00302C5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD8489FB18654FF700302C5C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/Main-iPad.strings"; sourceTree = "<group>"; };
+		AD8489FD18654FFD00302C5C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		AD879E9B17F0A3010015AF48 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AD9EC90717EBA5AC00BDBFA7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AD9EC91F17EBA5AC00BDBFA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -468,43 +471,6 @@
 			name = KSScreenshotManager;
 			sourceTree = "<group>";
 		};
-		AD723DE7185E64EB00504CAA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AD723DE8185E64EB00504CAA /* CDConstantModel.h */,
-				AD723DE9185E64EB00504CAA /* CDConstantModel.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AD7D265E1819C814000C5B6C /* Main View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				AD6E1D531840073F00965839 /* DesktopViewController.h */,
-				AD6E1D541840073F00965839 /* DesktopViewController.m */,
-				AD7D265F1819C814000C5B6C /* iPadRootViewController.h */,
-				AD7D26601819C814000C5B6C /* iPadRootViewController.m */,
-				AD7D26611819C814000C5B6C /* iPhoneRootViewController.h */,
-				AD7D26621819C814000C5B6C /* iPhoneRootViewController.m */,
-				AD7D26631819C814000C5B6C /* MainViewController.h */,
-				AD7D26641819C814000C5B6C /* MainViewController.m */,
-				AD7D26651819C814000C5B6C /* NavigationViewController.h */,
-				AD7D26661819C814000C5B6C /* NavigationViewController.m */,
-			);
-			path = "Main View Controllers";
-			sourceTree = "<group>";
-		};
-		AD7D266C1819C886000C5B6C /* LOG (SignIn:SignUp) View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				AD7D266D1819C886000C5B6C /* LOGWelcomeViewController.h */,
-				AD7D266E1819C886000C5B6C /* LOGWelcomeViewController.m */,
-				AD2D24A3181AF9BA005E20DE /* LOGWelcomeViewController.xib */,
-				AD2D24AC181AFE5B005E20DE /* LOGWelcomeViewController~ipad.xib */,
-			);
-			path = "LOG (SignIn:SignUp) View Controllers";
-			sourceTree = "<group>";
-		};
 		AD7FEE6A17F3546500F21A4D /* Application Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,13 +494,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AD84899A1860CD5F00302C5C /* Data Objects */ = {
+		AD8489AC18654F6B00302C5C /* Data Objects */ = {
 			isa = PBXGroup;
 			children = (
-				AD84899B1860CD5F00302C5C /* CDOConstant.h */,
-				AD84899C1860CD5F00302C5C /* CDOConstant.m */,
+				AD8489AD18654F6B00302C5C /* CDOConstant.h */,
+				AD8489AE18654F6B00302C5C /* CDOConstant.m */,
 			);
 			path = "Data Objects";
+			sourceTree = "<group>";
+		};
+		AD8489AF18654F6B00302C5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD8489B018654F6B00302C5C /* CDConstantModel.h */,
+				AD8489B118654F6B00302C5C /* CDConstantModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD8489B418654F8400302C5C /* Main View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD8489B518654F8400302C5C /* DesktopViewController.h */,
+				AD8489B618654F8400302C5C /* DesktopViewController.m */,
+				AD8489B718654F8400302C5C /* iPadRootViewController.h */,
+				AD8489B818654F8400302C5C /* iPadRootViewController.m */,
+				AD8489B918654F8400302C5C /* iPhoneRootViewController.h */,
+				AD8489BA18654F8400302C5C /* iPhoneRootViewController.m */,
+				AD8489BB18654F8400302C5C /* MainViewController.h */,
+				AD8489BC18654F8400302C5C /* MainViewController.m */,
+				AD8489BD18654F8400302C5C /* NavigationViewController.h */,
+				AD8489BE18654F8400302C5C /* NavigationViewController.m */,
+			);
+			path = "Main View Controllers";
+			sourceTree = "<group>";
+		};
+		AD8489CC18654FAB00302C5C /* LOG (SignIn:SignUp) View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD8489D718654FAB00302C5C /* LOGWelcomeViewController.h */,
+				AD8489D818654FAB00302C5C /* LOGWelcomeViewController.m */,
+				AD8489CD18654FAB00302C5C /* LOGWelcomeViewController.xib */,
+				AD8489CF18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib */,
+			);
+			path = "LOG (SignIn:SignUp) View Controllers";
+			sourceTree = "<group>";
+		};
+		AD8489E718654FEE00302C5C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD8489EA18654FEE00302C5C /* Main.storyboard */,
+				AD8489E818654FEE00302C5C /* Main-iPad.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 		AD879ED617F0A7160015AF48 /* Network */ = {
@@ -548,10 +560,10 @@
 			isa = PBXGroup;
 			children = (
 				AD8489971860C85500302C5C /* Constants.xcdatamodeld */,
-				AD723DEB185E656C00504CAA /* CDConstantsDataModel.h */,
-				AD723DEC185E656C00504CAA /* CDConstantsDataModel.m */,
-				AD723DE7185E64EB00504CAA /* Models */,
-				AD84899A1860CD5F00302C5C /* Data Objects */,
+				AD8489A918654F5F00302C5C /* CDConstantsDataModel.h */,
+				AD8489AA18654F5F00302C5C /* CDConstantsDataModel.m */,
+				AD8489AF18654F6B00302C5C /* Models */,
+				AD8489AC18654F6B00302C5C /* Data Objects */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -661,7 +673,6 @@
 		FF9BF4A11743923E008A3147 = {
 			isa = PBXGroup;
 			children = (
-				AD8489A81862560000302C5C /* DNDataModel.h */,
 				AD56452218219EC300B6C439 /* README.md */,
 				ADF9F5B718198CAC006DE995 /* release.txt */,
 				FF9BF4B31743923E008A3147 /* Application */,
@@ -743,8 +754,8 @@
 		FFCC590C17439553006F3673 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AD7D265E1819C814000C5B6C /* Main View Controllers */,
-				AD7D266C1819C886000C5B6C /* LOG (SignIn:SignUp) View Controllers */,
+				AD8489B418654F8400302C5C /* Main View Controllers */,
+				AD8489CC18654FAB00302C5C /* LOG (SignIn:SignUp) View Controllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -752,7 +763,7 @@
 		FFCC590D17439559006F3673 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FFCC593117439A06006F3673 /* Storyboard */,
+				AD8489E718654FEE00302C5C /* Storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -854,15 +865,6 @@
 			children = (
 			);
 			path = Sound;
-			sourceTree = "<group>";
-		};
-		FFCC593117439A06006F3673 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				AD2D2493181AF951005E20DE /* Main.storyboard */,
-				AD2D2496181AF95C005E20DE /* Main-iPad.storyboard */,
-			);
-			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -982,8 +984,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADED10C0184423A900D26466 /* checkerboard@2x.png in Resources */,
+				AD8489DC18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib in Resources */,
+				AD8489F518654FEE00302C5C /* Main.storyboard in Resources */,
 				ADED10C1184423A900D26466 /* imgLOGWelcomeViewFacebook@2x.png in Resources */,
-				ADED10C2184423A900D26466 /* LOGWelcomeViewController~ipad.xib in Resources */,
 				ADED10C3184423A900D26466 /* InfoPlist.strings in Resources */,
 				ADED10C4184423A900D26466 /* ProximaNova-LightItalic.otf in Resources */,
 				ADED10C5184423A900D26466 /* Logo@2x.png in Resources */,
@@ -999,16 +1002,16 @@
 				ADED10D3184423A900D26466 /* pickerColorWheel.png in Resources */,
 				ADED10D6184423A900D26466 /* README.md in Resources */,
 				ADED10D7184423A900D26466 /* DevBase.plist in Resources */,
+				AD8489DA18654FAB00302C5C /* LOGWelcomeViewController.xib in Resources */,
 				ADED10D8184423A900D26466 /* btnNavBarMenu.png in Resources */,
 				ADED10DB184423A900D26466 /* ProximaNova-RegularItalic.otf in Resources */,
 				ADED10DE184423A900D26466 /* btnErrorBanner.png in Resources */,
 				ADED10E3184423A900D26466 /* colorPickerKnob@2x.png in Resources */,
-				ADED10E5184423A900D26466 /* Main-iPad.storyboard in Resources */,
 				ADED10E7184423A900D26466 /* btnErrorNipple@2x.png in Resources */,
 				ADED10E8184423A900D26466 /* ProximaNova-Bold.otf in Resources */,
 				ADED10E9184423A900D26466 /* ProximaNova-Semibold.otf in Resources */,
+				AD8489F318654FEE00302C5C /* Main-iPad.storyboard in Resources */,
 				ADED10EA184423A900D26466 /* checkerboard.png in Resources */,
-				ADED10EB184423A900D26466 /* Main.storyboard in Resources */,
 				ADED10EC184423A900D26466 /* release.txt in Resources */,
 				ADED10ED184423A900D26466 /* ProximaNova-Light.otf in Resources */,
 				ADED10EE184423A900D26466 /* btnErrorNipple.png in Resources */,
@@ -1017,7 +1020,6 @@
 				ADED10F5184423A900D26466 /* Spinner@2x.png in Resources */,
 				ADED10F6184423A900D26466 /* Spinner.png in Resources */,
 				ADED10F7184423A900D26466 /* btnNavBarMenu@2x.png in Resources */,
-				ADED10FB184423A900D26466 /* LOGWelcomeViewController.xib in Resources */,
 				ADED10FC184423A900D26466 /* btnErrorBanner@2x.png in Resources */,
 				ADED10FD184423A900D26466 /* ProximaNova-Black.otf in Resources */,
 			);
@@ -1029,10 +1031,11 @@
 			files = (
 				ADF634C817F09CB400CD6740 /* checkerboard@2x.png in Resources */,
 				AD752618182DFBAB004DBE4C /* imgLOGWelcomeViewFacebook@2x.png in Resources */,
-				AD3F2B85181B086A00AA487C /* LOGWelcomeViewController~ipad.xib in Resources */,
 				AD3F2B7F181B085000AA487C /* InfoPlist.strings in Resources */,
 				AD2D2489181AD9AB005E20DE /* ProximaNova-LightItalic.otf in Resources */,
 				AD7D26731819C9AB000C5B6C /* Logo@2x.png in Resources */,
+				AD8489D918654FAB00302C5C /* LOGWelcomeViewController.xib in Resources */,
+				AD8489F418654FEE00302C5C /* Main.storyboard in Resources */,
 				ADF634CA17F09CB400CD6740 /* colorPickerKnob.png in Resources */,
 				AD2D2486181AD9AB005E20DE /* ProximaNova-BoldIt.otf in Resources */,
 				AD2D2487181AD9AB005E20DE /* ProximaNova-Extrabold.otf in Resources */,
@@ -1042,6 +1045,7 @@
 				AD723DDE185E2ABD00504CAA /* Images.xcassets in Resources */,
 				AD17997217F0CD3700022A37 /* Constants.plist in Resources */,
 				AD4FC644183C01FE002DE1BB /* Logo.png in Resources */,
+				AD8489DB18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib in Resources */,
 				AD75260A182D84C6004DBE4C /* imgLOGWelcomeViewCircle@2x.png in Resources */,
 				ADF634DE17F09CB400CD6740 /* pickerColorWheel.png in Resources */,
 				AD56452318219EC300B6C439 /* README.md in Resources */,
@@ -1051,12 +1055,10 @@
 				AD32EB131855269D0091F7BB /* btnSuccessNipple.png in Resources */,
 				AD008517183AB4D600F6F428 /* btnErrorBanner.png in Resources */,
 				ADF634CC17F09CB400CD6740 /* colorPickerKnob@2x.png in Resources */,
-				AD3F2B80181B085E00AA487C /* Main-iPad.storyboard in Resources */,
 				AD008514183AB1BF00F6F428 /* btnErrorNipple@2x.png in Resources */,
 				AD2D2485181AD9AB005E20DE /* ProximaNova-Bold.otf in Resources */,
 				AD2D248C181AD9AB005E20DE /* ProximaNova-Semibold.otf in Resources */,
 				ADF634C617F09CB400CD6740 /* checkerboard.png in Resources */,
-				AD3F2B83181B086400AA487C /* Main.storyboard in Resources */,
 				ADF9F5B818198CAC006DE995 /* release.txt in Resources */,
 				AD2D2488181AD9AB005E20DE /* ProximaNova-Light.otf in Resources */,
 				AD008513183AB1BF00F6F428 /* btnErrorNipple.png in Resources */,
@@ -1065,9 +1067,9 @@
 				AD752609182D84C6004DBE4C /* imgLOGWelcomeViewCircle.png in Resources */,
 				AD4FC646183C01FE002DE1BB /* Spinner@2x.png in Resources */,
 				AD4FC645183C01FE002DE1BB /* Spinner.png in Resources */,
+				AD8489F218654FEE00302C5C /* Main-iPad.storyboard in Resources */,
 				AD077658181EEEA700CF8A93 /* btnNavBarMenu@2x.png in Resources */,
 				AD32EB141855269D0091F7BB /* btnSuccessNipple@2x.png in Resources */,
-				AD3F2B84181B086A00AA487C /* LOGWelcomeViewController.xib in Resources */,
 				AD008518183AB4D600F6F428 /* btnErrorBanner@2x.png in Resources */,
 				AD2D2484181AD9AB005E20DE /* ProximaNova-Black.otf in Resources */,
 			);
@@ -1210,11 +1212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD723DF61860032700504CAA /* CDConstantsDataModel.m in Sources */,
+				AD8489C618654F8D00302C5C /* CDOConstant.m in Sources */,
+				AD8489CA18654F9800302C5C /* MainViewController.m in Sources */,
 				ADED108B184423A900D26466 /* KZColorPickerAlphaSlider.m in Sources */,
-				ADED108C184423A900D26466 /* LOGWelcomeViewController.m in Sources */,
-				ADED108D184423A900D26466 /* MainViewController.m in Sources */,
 				AD22097E185BC30600914F5B /* AppDelegate.m in Sources */,
+				AD8489C718654F9800302C5C /* DesktopViewController.m in Sources */,
 				ADED1090184423A900D26466 /* DTAlertView.m in Sources */,
 				ADED1092184423A900D26466 /* UIImage+iPhone5.m in Sources */,
 				ADED1093184423A900D26466 /* KZUnitSlider.m in Sources */,
@@ -1225,14 +1227,15 @@
 				ADED1099184423A900D26466 /* UIColor-Expanded.m in Sources */,
 				AD220982185BC30600914F5B /* AppScreenshotManager.m in Sources */,
 				AD220981185BC30600914F5B /* AppThemeManager.m in Sources */,
+				AD8489C518654F8D00302C5C /* CDConstantModel.m in Sources */,
+				AD8489C818654F9800302C5C /* iPadRootViewController.m in Sources */,
+				AD8489E218654FAB00302C5C /* LOGWelcomeViewController.m in Sources */,
 				ADED109B184423A900D26466 /* KZColorPickerHSWheel.m in Sources */,
-				ADED109C184423A900D26466 /* iPadRootViewController.m in Sources */,
-				ADED109F184423A900D26466 /* DesktopViewController.m in Sources */,
 				ADED10A0184423A900D26466 /* KZColorPickerSwatchView.m in Sources */,
 				ADED10A2184423A900D26466 /* ZoomAnimationController.m in Sources */,
 				AD220983185BC30600914F5B /* GTMCodeCoverageApp.m in Sources */,
 				ADED10A4184423A900D26466 /* DropAnimationController.m in Sources */,
-				ADED10A6184423A900D26466 /* NavigationViewController.m in Sources */,
+				AD8489CB18654F9800302C5C /* NavigationViewController.m in Sources */,
 				ADED10A7184423A900D26466 /* UIColor+Alpha.m in Sources */,
 				ADED10A8184423A900D26466 /* KSScreenshotAction.m in Sources */,
 				ADED10A9184423A900D26466 /* KZColorPicker.m in Sources */,
@@ -1240,7 +1243,8 @@
 				ADED10AE184423A900D26466 /* KZColorPickerBrightnessSlider.m in Sources */,
 				AD220980185BC30600914F5B /* AppThemeBase.m in Sources */,
 				ADED10AF184423A900D26466 /* DTProgressStatus.m in Sources */,
-				ADED10B1184423A900D26466 /* iPhoneRootViewController.m in Sources */,
+				AD8489C418654F8D00302C5C /* CDConstantsDataModel.m in Sources */,
+				AD8489C918654F9800302C5C /* iPhoneRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1249,9 +1253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF634D417F09CB400CD6740 /* KZColorPickerAlphaSlider.m in Sources */,
-				AD723DED185E656C00504CAA /* CDConstantsDataModel.m in Sources */,
-				AD7D26701819C886000C5B6C /* LOGWelcomeViewController.m in Sources */,
-				AD7D26691819C814000C5B6C /* MainViewController.m in Sources */,
+				AD8489E118654FAB00302C5C /* LOGWelcomeViewController.m in Sources */,
+				AD8489AB18654F5F00302C5C /* CDConstantsDataModel.m in Sources */,
 				ADEE26EF1816FA90002CE729 /* DTAlertView.m in Sources */,
 				ADF634E617F09CB400CD6740 /* UIImage+iPhone5.m in Sources */,
 				ADF634DC17F09CB400CD6740 /* KZUnitSlider.m in Sources */,
@@ -1261,26 +1264,27 @@
 				ADED10591843D06D00D26466 /* KSScreenshotManager.m in Sources */,
 				ADF634E217F09CB400CD6740 /* UIColor-Expanded.m in Sources */,
 				AD220978185B834C00914F5B /* GTMCodeCoverageApp.m in Sources */,
+				AD8489BF18654F8400302C5C /* DesktopViewController.m in Sources */,
 				ADF634D817F09CB400CD6740 /* KZColorPickerHSWheel.m in Sources */,
+				AD8489B318654F6B00302C5C /* CDConstantModel.m in Sources */,
 				AD8489991860C85500302C5C /* Constants.xcdatamodeld in Sources */,
 				AD22097B185B834C00914F5B /* AppThemeManager.m in Sources */,
-				AD7D26671819C814000C5B6C /* iPadRootViewController.m in Sources */,
-				AD6E1D551840073F00965839 /* DesktopViewController.m in Sources */,
+				AD8489C318654F8400302C5C /* NavigationViewController.m in Sources */,
+				AD8489C018654F8400302C5C /* iPadRootViewController.m in Sources */,
 				ADF634DA17F09CB400CD6740 /* KZColorPickerSwatchView.m in Sources */,
 				AD22097A185B834C00914F5B /* AppConstants.m in Sources */,
 				ADF633E317F098FB00CD6740 /* ZoomAnimationController.m in Sources */,
 				ADF633E117F098FB00CD6740 /* DropAnimationController.m in Sources */,
-				AD7D266A1819C814000C5B6C /* NavigationViewController.m in Sources */,
-				AD723DEA185E64EB00504CAA /* CDConstantModel.m in Sources */,
+				AD8489C218654F8400302C5C /* MainViewController.m in Sources */,
 				ADF634E417F09CB400CD6740 /* UIColor+Alpha.m in Sources */,
 				AD220979185B834C00914F5B /* AppThemeBase.m in Sources */,
 				ADEA29EA1843CF7200A2FDA7 /* KSScreenshotAction.m in Sources */,
 				ADF634D217F09CB400CD6740 /* KZColorPicker.m in Sources */,
-				AD84899D1860CD5F00302C5C /* CDOConstant.m in Sources */,
+				AD8489B218654F6B00302C5C /* CDOConstant.m in Sources */,
 				ADF634D017F09CB400CD6740 /* KZColorCompareView.m in Sources */,
 				ADF634D617F09CB400CD6740 /* KZColorPickerBrightnessSlider.m in Sources */,
 				ADEE26F01816FA90002CE729 /* DTProgressStatus.m in Sources */,
-				AD7D26681819C814000C5B6C /* iPhoneRootViewController.m in Sources */,
+				AD8489C118654F8400302C5C /* iPhoneRootViewController.m in Sources */,
 				AD220976185B834C00914F5B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1296,42 +1300,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD2D2493181AF951005E20DE /* Main.storyboard */ = {
+		AD8489CD18654FAB00302C5C /* LOGWelcomeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD2D249F181AF982005E20DE /* Base */,
-				AD3F2B88181B106F00AA487C /* en */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AD2D2496181AF95C005E20DE /* Main-iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD2D24A0181AF982005E20DE /* Base */,
-				AD3F2B89181B106F00AA487C /* en */,
-			);
-			name = "Main-iPad.storyboard";
-			sourceTree = "<group>";
-		};
-		AD2D24A3181AF9BA005E20DE /* LOGWelcomeViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD2D24A2181AF9BA005E20DE /* Base */,
-				AD8489A11862503B00302C5C /* en */,
-				AD8489A31862503D00302C5C /* de */,
+				AD8489CE18654FAB00302C5C /* Base */,
+				AD8489E318654FC100302C5C /* en */,
+				AD8489E418654FC400302C5C /* de */,
 			);
 			name = LOGWelcomeViewController.xib;
 			sourceTree = "<group>";
 		};
-		AD2D24AC181AFE5B005E20DE /* LOGWelcomeViewController~ipad.xib */ = {
+		AD8489CF18654FAB00302C5C /* LOGWelcomeViewController~ipad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD2D24AB181AFE5B005E20DE /* Base */,
-				AD8489A51862504F00302C5C /* en */,
-				AD8489A71862505000302C5C /* de */,
+				AD8489D018654FAB00302C5C /* Base */,
+				AD8489E518654FCA00302C5C /* en */,
+				AD8489E618654FCC00302C5C /* de */,
 			);
 			name = "LOGWelcomeViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		AD8489E818654FEE00302C5C /* Main-iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8489E918654FEE00302C5C /* Base */,
+				AD8489EC18654FEE00302C5C /* en */,
+				AD8489FB18654FF700302C5C /* de */,
+			);
+			name = "Main-iPad.storyboard";
+			sourceTree = "<group>";
+		};
+		AD8489EA18654FEE00302C5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8489EB18654FEE00302C5C /* Base */,
+				AD8489EF18654FEE00302C5C /* en */,
+				AD8489FD18654FFD00302C5C /* de */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		FF9BF4B61743923E008A3147 /* InfoPlist.strings */ = {
