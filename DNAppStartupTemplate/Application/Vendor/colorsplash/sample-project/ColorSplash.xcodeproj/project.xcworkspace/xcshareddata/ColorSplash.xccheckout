@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5614B74C-9085-4EDD-98CB-4B8CB3EDBF59</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ColorSplash</string>
+	<key>IDESourceControlProjectPath</key>
+	<string>ColorSplash.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F214AA86-B6A7-40F7-A970-7CC6BA39E993</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/tableproject/phoenix-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F214AA86-B6A7-40F7-A970-7CC6BA39E993</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F214AA86-B6A7-40F7-A970-7CC6BA39E993</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sample-project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

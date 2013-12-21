@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC66AC5417D4A26900A9EB23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66AC5317D4A26900A9EB23 /* Foundation.framework */; };
+		EC66AC5617D4A26900A9EB23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66AC5517D4A26900A9EB23 /* CoreGraphics.framework */; };
+		EC66AC5817D4A26900A9EB23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66AC5717D4A26900A9EB23 /* UIKit.framework */; };
+		EC66AC5E17D4A26900A9EB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC66AC5C17D4A26900A9EB23 /* InfoPlist.strings */; };
+		EC66AC6017D4A26900A9EB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66AC5F17D4A26900A9EB23 /* main.m */; };
+		EC66AC6417D4A26900A9EB23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66AC6317D4A26900A9EB23 /* AppDelegate.m */; };
+		EC66AC6717D4A26900A9EB23 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC66AC6517D4A26900A9EB23 /* Main_iPhone.storyboard */; };
+		EC66AC6A17D4A26900A9EB23 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC66AC6817D4A26900A9EB23 /* Main_iPad.storyboard */; };
+		EC66AC6D17D4A26900A9EB23 /* PresentingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66AC6C17D4A26900A9EB23 /* PresentingViewController.m */; };
+		EC66AC6F17D4A26900A9EB23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC66AC6E17D4A26900A9EB23 /* Images.xcassets */; };
+		EC66AC7617D4A26900A9EB23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66AC7517D4A26900A9EB23 /* XCTest.framework */; };
+		EC66AC7717D4A26900A9EB23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66AC5317D4A26900A9EB23 /* Foundation.framework */; };
+		EC66AC7817D4A26900A9EB23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66AC5717D4A26900A9EB23 /* UIKit.framework */; };
+		EC66AC8017D4A26A00A9EB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC66AC7E17D4A26A00A9EB23 /* InfoPlist.strings */; };
+		EC66AC8217D4A26A00A9EB23 /* CustomTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66AC8117D4A26A00A9EB23 /* CustomTransitionsTests.m */; };
+		EC66AC9517D4A31100A9EB23 /* DropAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66AC9017D4A31100A9EB23 /* DropAnimationController.m */; };
+		EC66AC9717D4A31100A9EB23 /* ZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66AC9417D4A31100A9EB23 /* ZoomAnimationController.m */; };
+		EC66AC9A17D4A39F00A9EB23 /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66AC9917D4A39F00A9EB23 /* PresentedViewController.m */; };
+		EC739E6817E89665005E0AE1 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = EC739E6617E89665005E0AE1 /* check.png */; };
+		EC739E6917E89665005E0AE1 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC739E6717E89665005E0AE1 /* check@2x.png */; };
+		EC739E6D17E89B76005E0AE1 /* profile-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC739E6A17E89B76005E0AE1 /* profile-2.jpg */; };
+		EC739E6E17E89B76005E0AE1 /* profile-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC739E6B17E89B76005E0AE1 /* profile-3.jpg */; };
+		EC739E6F17E89B76005E0AE1 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC739E6C17E89B76005E0AE1 /* profile.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC66AC7917D4A26900A9EB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC66AC4817D4A26900A9EB23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC66AC4F17D4A26900A9EB23;
+			remoteInfo = CustomTransitions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC66AC5017D4A26900A9EB23 /* CustomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC66AC5317D4A26900A9EB23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC66AC5517D4A26900A9EB23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC66AC5717D4A26900A9EB23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC66AC5B17D4A26900A9EB23 /* CustomTransitions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTransitions-Info.plist"; sourceTree = "<group>"; };
+		EC66AC5D17D4A26900A9EB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC66AC5F17D4A26900A9EB23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC66AC6117D4A26900A9EB23 /* CustomTransitions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomTransitions-Prefix.pch"; sourceTree = "<group>"; };
+		EC66AC6217D4A26900A9EB23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC66AC6317D4A26900A9EB23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC66AC6617D4A26900A9EB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EC66AC6917D4A26900A9EB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EC66AC6B17D4A26900A9EB23 /* PresentingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentingViewController.h; sourceTree = "<group>"; };
+		EC66AC6C17D4A26900A9EB23 /* PresentingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentingViewController.m; sourceTree = "<group>"; };
+		EC66AC6E17D4A26900A9EB23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC66AC7417D4A26900A9EB23 /* CustomTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC66AC7517D4A26900A9EB23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC66AC7D17D4A26A00A9EB23 /* CustomTransitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTransitionsTests-Info.plist"; sourceTree = "<group>"; };
+		EC66AC7F17D4A26A00A9EB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC66AC8117D4A26A00A9EB23 /* CustomTransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionsTests.m; sourceTree = "<group>"; };
+		EC66AC8E17D4A31100A9EB23 /* ADVAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVAnimationController.h; sourceTree = "<group>"; };
+		EC66AC8F17D4A31100A9EB23 /* DropAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropAnimationController.h; sourceTree = "<group>"; };
+		EC66AC9017D4A31100A9EB23 /* DropAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropAnimationController.m; sourceTree = "<group>"; };
+		EC66AC9317D4A31100A9EB23 /* ZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomAnimationController.h; sourceTree = "<group>"; };
+		EC66AC9417D4A31100A9EB23 /* ZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomAnimationController.m; sourceTree = "<group>"; };
+		EC66AC9817D4A39F00A9EB23 /* PresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PresentedViewController.h; path = ViewControllers/PresentedViewController.h; sourceTree = "<group>"; };
+		EC66AC9917D4A39F00A9EB23 /* PresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PresentedViewController.m; path = ViewControllers/PresentedViewController.m; sourceTree = "<group>"; };
+		EC739E6617E89665005E0AE1 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		EC739E6717E89665005E0AE1 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		EC739E6A17E89B76005E0AE1 /* profile-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "profile-2.jpg"; sourceTree = "<group>"; };
+		EC739E6B17E89B76005E0AE1 /* profile-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "profile-3.jpg"; sourceTree = "<group>"; };
+		EC739E6C17E89B76005E0AE1 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC66AC4D17D4A26900A9EB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC66AC5617D4A26900A9EB23 /* CoreGraphics.framework in Frameworks */,
+				EC66AC5817D4A26900A9EB23 /* UIKit.framework in Frameworks */,
+				EC66AC5417D4A26900A9EB23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC66AC7117D4A26900A9EB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC66AC7617D4A26900A9EB23 /* XCTest.framework in Frameworks */,
+				EC66AC7817D4A26900A9EB23 /* UIKit.framework in Frameworks */,
+				EC66AC7717D4A26900A9EB23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC66AC4717D4A26900A9EB23 = {
+			isa = PBXGroup;
+			children = (
+				EC66AC5917D4A26900A9EB23 /* CustomTransitions */,
+				EC66AC7B17D4A26900A9EB23 /* CustomTransitionsTests */,
+				EC66AC5217D4A26900A9EB23 /* Frameworks */,
+				EC66AC5117D4A26900A9EB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC66AC5117D4A26900A9EB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC5017D4A26900A9EB23 /* CustomTransitions.app */,
+				EC66AC7417D4A26900A9EB23 /* CustomTransitionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC66AC5217D4A26900A9EB23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC5317D4A26900A9EB23 /* Foundation.framework */,
+				EC66AC5517D4A26900A9EB23 /* CoreGraphics.framework */,
+				EC66AC5717D4A26900A9EB23 /* UIKit.framework */,
+				EC66AC7517D4A26900A9EB23 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC66AC5917D4A26900A9EB23 /* CustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				EC739E6517E89665005E0AE1 /* Resources */,
+				EC66AC9C17D4A3CB00A9EB23 /* ViewControllers */,
+				EC66AC8D17D4A31100A9EB23 /* TransitionControllers */,
+				EC66AC9B17D4A3AB00A9EB23 /* AppDelegate */,
+				EC66AC6517D4A26900A9EB23 /* Main_iPhone.storyboard */,
+				EC66AC6817D4A26900A9EB23 /* Main_iPad.storyboard */,
+				EC66AC6E17D4A26900A9EB23 /* Images.xcassets */,
+				EC66AC5A17D4A26900A9EB23 /* Supporting Files */,
+			);
+			path = CustomTransitions;
+			sourceTree = "<group>";
+		};
+		EC66AC5A17D4A26900A9EB23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC5B17D4A26900A9EB23 /* CustomTransitions-Info.plist */,
+				EC66AC5C17D4A26900A9EB23 /* InfoPlist.strings */,
+				EC66AC5F17D4A26900A9EB23 /* main.m */,
+				EC66AC6117D4A26900A9EB23 /* CustomTransitions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC66AC7B17D4A26900A9EB23 /* CustomTransitionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC8117D4A26A00A9EB23 /* CustomTransitionsTests.m */,
+				EC66AC7C17D4A26A00A9EB23 /* Supporting Files */,
+			);
+			path = CustomTransitionsTests;
+			sourceTree = "<group>";
+		};
+		EC66AC7C17D4A26A00A9EB23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC7D17D4A26A00A9EB23 /* CustomTransitionsTests-Info.plist */,
+				EC66AC7E17D4A26A00A9EB23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC66AC8D17D4A31100A9EB23 /* TransitionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC8E17D4A31100A9EB23 /* ADVAnimationController.h */,
+				EC66AC8F17D4A31100A9EB23 /* DropAnimationController.h */,
+				EC66AC9017D4A31100A9EB23 /* DropAnimationController.m */,
+				EC66AC9317D4A31100A9EB23 /* ZoomAnimationController.h */,
+				EC66AC9417D4A31100A9EB23 /* ZoomAnimationController.m */,
+			);
+			path = TransitionControllers;
+			sourceTree = "<group>";
+		};
+		EC66AC9B17D4A3AB00A9EB23 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC6217D4A26900A9EB23 /* AppDelegate.h */,
+				EC66AC6317D4A26900A9EB23 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EC66AC9C17D4A3CB00A9EB23 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC66AC9817D4A39F00A9EB23 /* PresentedViewController.h */,
+				EC66AC9917D4A39F00A9EB23 /* PresentedViewController.m */,
+				EC66AC6B17D4A26900A9EB23 /* PresentingViewController.h */,
+				EC66AC6C17D4A26900A9EB23 /* PresentingViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC739E6517E89665005E0AE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC739E6A17E89B76005E0AE1 /* profile-2.jpg */,
+				EC739E6B17E89B76005E0AE1 /* profile-3.jpg */,
+				EC739E6C17E89B76005E0AE1 /* profile.jpg */,
+				EC739E6617E89665005E0AE1 /* check.png */,
+				EC739E6717E89665005E0AE1 /* check@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC66AC4F17D4A26900A9EB23 /* CustomTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC66AC8517D4A26A00A9EB23 /* Build configuration list for PBXNativeTarget "CustomTransitions" */;
+			buildPhases = (
+				EC66AC4C17D4A26900A9EB23 /* Sources */,
+				EC66AC4D17D4A26900A9EB23 /* Frameworks */,
+				EC66AC4E17D4A26900A9EB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTransitions;
+			productName = CustomTransitions;
+			productReference = EC66AC5017D4A26900A9EB23 /* CustomTransitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC66AC7317D4A26900A9EB23 /* CustomTransitionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC66AC8817D4A26A00A9EB23 /* Build configuration list for PBXNativeTarget "CustomTransitionsTests" */;
+			buildPhases = (
+				EC66AC7017D4A26900A9EB23 /* Sources */,
+				EC66AC7117D4A26900A9EB23 /* Frameworks */,
+				EC66AC7217D4A26900A9EB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC66AC7A17D4A26900A9EB23 /* PBXTargetDependency */,
+			);
+			name = CustomTransitionsTests;
+			productName = CustomTransitionsTests;
+			productReference = EC66AC7417D4A26900A9EB23 /* CustomTransitionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC66AC4817D4A26900A9EB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "App Design Vault";
+				TargetAttributes = {
+					EC66AC7317D4A26900A9EB23 = {
+						TestTargetID = EC66AC4F17D4A26900A9EB23;
+					};
+				};
+			};
+			buildConfigurationList = EC66AC4B17D4A26900A9EB23 /* Build configuration list for PBXProject "CustomTransitions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC66AC4717D4A26900A9EB23;
+			productRefGroup = EC66AC5117D4A26900A9EB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC66AC4F17D4A26900A9EB23 /* CustomTransitions */,
+				EC66AC7317D4A26900A9EB23 /* CustomTransitionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC66AC4E17D4A26900A9EB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC739E6D17E89B76005E0AE1 /* profile-2.jpg in Resources */,
+				EC739E6F17E89B76005E0AE1 /* profile.jpg in Resources */,
+				EC66AC6A17D4A26900A9EB23 /* Main_iPad.storyboard in Resources */,
+				EC739E6817E89665005E0AE1 /* check.png in Resources */,
+				EC66AC6F17D4A26900A9EB23 /* Images.xcassets in Resources */,
+				EC66AC6717D4A26900A9EB23 /* Main_iPhone.storyboard in Resources */,
+				EC739E6E17E89B76005E0AE1 /* profile-3.jpg in Resources */,
+				EC66AC5E17D4A26900A9EB23 /* InfoPlist.strings in Resources */,
+				EC739E6917E89665005E0AE1 /* check@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC66AC7217D4A26900A9EB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC66AC8017D4A26A00A9EB23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC66AC4C17D4A26900A9EB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC66AC9A17D4A39F00A9EB23 /* PresentedViewController.m in Sources */,
+				EC66AC6D17D4A26900A9EB23 /* PresentingViewController.m in Sources */,
+				EC66AC9517D4A31100A9EB23 /* DropAnimationController.m in Sources */,
+				EC66AC6417D4A26900A9EB23 /* AppDelegate.m in Sources */,
+				EC66AC6017D4A26900A9EB23 /* main.m in Sources */,
+				EC66AC9717D4A31100A9EB23 /* ZoomAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC66AC7017D4A26900A9EB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC66AC8217D4A26A00A9EB23 /* CustomTransitionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC66AC7A17D4A26900A9EB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC66AC4F17D4A26900A9EB23 /* CustomTransitions */;
+			targetProxy = EC66AC7917D4A26900A9EB23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC66AC5C17D4A26900A9EB23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC66AC5D17D4A26900A9EB23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC66AC6517D4A26900A9EB23 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC66AC6617D4A26900A9EB23 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC66AC6817D4A26900A9EB23 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC66AC6917D4A26900A9EB23 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EC66AC7E17D4A26A00A9EB23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC66AC7F17D4A26A00A9EB23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC66AC8317D4A26A00A9EB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC66AC8417D4A26A00A9EB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC66AC8617D4A26A00A9EB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTransitions/CustomTransitions-Prefix.pch";
+				INFOPLIST_FILE = "CustomTransitions/CustomTransitions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC66AC8717D4A26A00A9EB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTransitions/CustomTransitions-Prefix.pch";
+				INFOPLIST_FILE = "CustomTransitions/CustomTransitions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC66AC8917D4A26A00A9EB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTransitions.app/CustomTransitions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTransitions/CustomTransitions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomTransitionsTests/CustomTransitionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC66AC8A17D4A26A00A9EB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTransitions.app/CustomTransitions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTransitions/CustomTransitions-Prefix.pch";
+				INFOPLIST_FILE = "CustomTransitionsTests/CustomTransitionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC66AC4B17D4A26900A9EB23 /* Build configuration list for PBXProject "CustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC66AC8317D4A26A00A9EB23 /* Debug */,
+				EC66AC8417D4A26A00A9EB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC66AC8517D4A26A00A9EB23 /* Build configuration list for PBXNativeTarget "CustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC66AC8617D4A26A00A9EB23 /* Debug */,
+				EC66AC8717D4A26A00A9EB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC66AC8817D4A26A00A9EB23 /* Build configuration list for PBXNativeTarget "CustomTransitionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC66AC8917D4A26A00A9EB23 /* Debug */,
+				EC66AC8A17D4A26A00A9EB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC66AC4817D4A26900A9EB23 /* Project object */;
+}
