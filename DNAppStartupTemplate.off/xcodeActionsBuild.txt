@@ -1,7 +1,0 @@
-Xcode Scheme Build Pre-action Script
-Application : Application
-12-18-13.161531
-buildNumber=20131218161531
-hexNumber=124F2A1B7F7B
-PROJECT_DIR=/Users/darren.ehlers/Documents/Clients/Personal/git/DNAppStartupTemplate/DNAppStartupTemplate
-INFOPLIST_FILE=/Users/darren.ehlers/Documents/Clients/Personal/git/DNAppStartupTemplate/DNAppStartupTemplate/Application/SupportingFiles/Application-Info.plist
