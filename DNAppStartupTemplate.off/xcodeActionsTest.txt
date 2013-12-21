@@ -1,0 +1,8 @@
+Xcode Scheme Test Post-action Script
+Application : Application
+12-13-13.172548
+CURRENT_ARCH=undefined_arch
+NATIVE_ARCH=armv7
+SOURCE_PATH=/Users/darren.ehlers/Library/Developer/Xcode/DerivedData/Application-fpqtmmjdzzxlsxdktdzpggdjoemn/Build/Intermediates/Application.build/Debug-iphonesimulator/Application.build/Objects-normal/i386
+EXPORT_PATH=/Users/darren.ehlers/Documents/Clients/Personal/git/DNAppStartupTemplate/Coverage
+done!

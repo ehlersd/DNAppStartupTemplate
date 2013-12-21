@@ -1,1 +1,33 @@
 .DS_Store
+.DS_Store?
+.Trashes
+*.swp
+*.lock
+configure_backup.rb
+*.mobileprovision
+*~.nib
+xcuserdata
+DerivedData/
+/build/
+
+#
+# Settings for KSScreenshotManager
+#
+/DNAppStartupTemplate/build/
+/DNAppStartupTemplate/Pods/build/
+/DNAppStartupTemplate/Screenshots/
+
+#
+# Settings for MonkeyTalk
+#
+.project
+.metadata
+
+/Coverage/
+
+/DNAppStartupTemplate/xcodeActionsBuild.txt
+/DNAppStartupTemplate/xcodeActionsTest.txt
+
+/Screenshots/
+
+/DNAppStartupTemplate/xcodeActionsArchive.txt

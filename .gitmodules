@@ -1,0 +1,3 @@
+[submodule "DNAppStartupTemplate/DNAppStartupTemplate/Vendor/KSScreenshotManager"]
+	path = DNAppStartupTemplate/DNAppStartupTemplate/Vendor/KSScreenshotManager
+	url = git@github.com:ksuther/KSScreenshotManager.git

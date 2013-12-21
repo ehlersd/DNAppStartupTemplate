@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0500"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "#-----------------------------&#10;#xcode build pre-action script - redirect output to file&#10;echo &quot;Xcode Scheme Build Pre-action Script&quot; &gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;echo &quot;$PROJECT_NAME : $TARGET_NAME&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;date &apos;+%m-%d-%y.%H%M%S&apos; &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;&#10;buildNumber=`/bin/date +%Y%m%d%H%M%S` &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;hexNumber=`echo &quot;obase=16;ibase=10; $buildNumber&quot; | bc` &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;&#10;echo &quot;buildNumber=$buildNumber&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;echo &quot;hexNumber=$hexNumber&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;&#10;echo &quot;PROJECT_DIR=$PROJECT_DIR&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;echo &quot;INFOPLIST_FILE=$INFOPLIST_FILE&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;&#10;/usr/libexec/PlistBuddy -c &quot;Set :CFBundleVersion $hexNumber&quot; &quot;${INFOPLIST_FILE}&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsBuild.txt&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "FF9BF4A91743923E008A3147"
+                     BuildableName = "application.app"
+                     BlueprintName = "Application"
+                     ReferencedContainer = "container:Application.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF9BF4A91743923E008A3147"
+               BuildableName = "application.app"
+               BlueprintName = "Application"
+               ReferencedContainer = "container:Application.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "#-----------------------------&#10;#xcode build pre-action script - redirect output to file&#10;echo &quot;Xcode Scheme Test Post-action Script&quot; &gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;echo &quot;$PROJECT_NAME : $TARGET_NAME&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;date &apos;+%m-%d-%y.%H%M%S&apos; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;&#10;cd &quot;$SOURCE_ROOT/..&quot;&#10;&#10;echo &quot;CURRENT_ARCH=$CURRENT_ARCH&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;echo &quot;NATIVE_ARCH=$NATIVE_ARCH&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;&#10;RUNNING_ARCH=&quot;$CURRENT_ARCH&quot;&#10;if [ &quot;$RUNNING_ARCH&quot; = &quot;undefined_arch&quot; ] ; then&#10;    RUNNING_ARCH=&quot;i386&quot;&#10;fi&#10;&#10;EXPORT_PATH=&quot;$PWD/Coverage&quot;&#10;SOURCE_PATH=&quot;$PROJECT_TEMP_DIR/$CONFIGURATION-iphonesimulator/$PROJECT_NAME.build/Objects-$CURRENT_VARIANT/$RUNNING_ARCH&quot;&#10;&#10;echo &quot;SOURCE_PATH=$SOURCE_PATH&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;echo &quot;EXPORT_PATH=$EXPORT_PATH&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;&#10;if [ -d &quot;$SOURCE_PATH&quot; ] ; then&#10;    if [ &quot;$RUNNING_ARCH&quot; = &quot;i386&quot; ] ; then&#10;        # remove previous coverage results&#10;        echo &quot;##[progressStart &apos;Clearing Previous Coverage results&apos;]&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;        rm -rf Coverage &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;        echo &quot;##[progressFinish &apos;Clearing Previous Coverage results&apos;]&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;&#10;        # collect coverage results&#10;        echo &quot;##[progressStart &apos;Collecting Coverage results&apos;]&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;        osascript coverage.scpt $SOURCE_PATH $EXPORT_PATH &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;        echo &quot;##[progressFinish &apos;Collecting Coverage results&apos;]&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;    fi&#10;fi&#10;&#10;echo &quot;done!&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsTest.txt&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "FF9BF4A91743923E008A3147"
+                     BuildableName = "application.app"
+                     BlueprintName = "Application"
+                     ReferencedContainer = "container:Application.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AD7FEE6517F3546500F21A4D"
+               BuildableName = "Application Tests.xctest"
+               BlueprintName = "Application Tests"
+               ReferencedContainer = "container:Application.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FF9BF4A91743923E008A3147"
+            BuildableName = "application.app"
+            BlueprintName = "Application"
+            ReferencedContainer = "container:Application.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FF9BF4A91743923E008A3147"
+            BuildableName = "application.app"
+            BlueprintName = "Application"
+            ReferencedContainer = "container:Application.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FF9BF4A91743923E008A3147"
+            BuildableName = "application.app"
+            BlueprintName = "Application"
+            ReferencedContainer = "container:Application.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "#-----------------------------&#10;#xcode archive post-action script - redirect output to file&#10;echo &quot;Xcode Scheme Archive Post-action Script&quot; &gt; $SOURCE_ROOT/xcodeActionsArchive.txt&#10;echo &quot;$PROJECT_NAME : $TARGET_NAME&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsArchive.txt&#10;date &apos;+%m-%d-%y.%H%M%S&apos; &gt;&gt; $SOURCE_ROOT/xcodeActionsArchive.txt&#10;&#10;cd &quot;$SOURCE_ROOT&quot; &gt;&gt; $SOURCE_ROOT/xcodeActionsArchive.txt&#10;&#10;#./make_screenshots.sh &gt;&gt; $SOURCE_ROOT/xcodeActionsArchive.txt&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "FF9BF4A91743923E008A3147"
+                     BuildableName = "application.app"
+                     BlueprintName = "Application"
+                     ReferencedContainer = "container:Application.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+   </ArchiveAction>
+</Scheme>

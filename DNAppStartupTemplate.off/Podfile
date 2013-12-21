@@ -1,0 +1,97 @@
+# Podfile
+
+# Select the appropriate platform below
+platform :ios, '7.0'
+#platform :osx
+
+# Add Kiwi as an exclusive dependency for the AmazingAppTests target
+target :'Application Tests', :exclusive => true do
+    pod 'Kiwi/XCTest'
+    pod 'Nocilla'
+end
+
+#
+# Mockup UnitTest Utility Pods
+# (included here for the Screenshot Generator to use, as well as UnitTests)
+#
+pod 'Nocilla'
+pod 'KPAViewControllerTestHelper', git: "https://github.com/klaaspieter/KPAViewControllerTestHelper.git"
+
+#
+# Darren's Pods
+#
+pod 'DoubleNode', :git => "git@github.com:ehlersd/DoubleNode.git"
+pod 'ColorUtils', :git => "git@github.com:ehlersd/ColorUtils.git"
+
+# Automatically Installed via Dependencies: pod 'ReactiveCocoa'
+# Automatically Installed via Dependencies: pod 'AFNetworking'
+# Automatically Installed via Dependencies: pod 'SocketRocket'
+
+#
+# Internal Reporting Pods
+#
+pod 'FlurrySDK'
+pod 'HockeySDK'
+pod 'Reveal-iOS-SDK'    # MUST be removed prior to AppStore submission
+pod 'BugButton'         # MUST be removed prior to AppStore submission
+
+#
+# Utility Pods
+#
+pod 'MTMigration'
+pod 'AnalyticsKit/Flurry'
+#pod 'AnalyticsKit/AdjustIO'
+#pod 'AnalyticsKit/NewRelic'
+pod 'YAJL-Entity'
+
+#
+# UI Control Pods
+#
+pod 'JVFloatLabeledTextField'
+pod 'REFrostedViewController'
+pod 'RESideMenu'
+pod 'FlatUIKit'
+pod 'JazzHands'
+pod 'SHEmailValidator', :git => "git@github.com:ehlersd/SHEmailValidator.git"
+pod 'EZForm'    # Fixed and updated, reverting back to source, :git => "git@github.com:ehlersd/EZForm.git"
+
+#
+# Communication Pods
+#
+pod 'AFIncrementalStore'                #, :git => "git@github.com:ehlersd/AFIncrementalStore.git"
+pod 'AFNetworking-RACExtensions'
+pod 'AFOAuth1Client'
+pod 'AFOAuth2Client'
+pod 'AFHTTPRequestOperationLogger'
+pod 'SBJson'
+
+#
+# UI/UX Helper Pods
+#
+pod 'CWStatusBarNotification'
+pod 'FrameAccessor'
+pod 'LEColorPicker'
+pod 'VCTransitionsLibrary'
+
+#
+# Local (in application repo) Pods
+#
+pod 'DevBase', :path => "Application/Vendor/DevBase/iOS/"
+
+#
+# Pods to investigate
+#
+# https://github.com/marlonandrade/malazykit
+# Lazy Object Instantiation:  [MyAnotherObject anotherObject] instead of [[MyAnotherObject alloc] init]
+#
+# pod 'Anim', :git => "git@github.com:zakdances/Anim.git"
+# Animation Helper
+#
+# pod 'CocoaPlus', :git => "git@github.com:zakdances/CocoaPlus.git"
+# ReactiveCocoa Helper Categories
+#
+# pod 'TPKeyboardAvoiding'
+# TPKeyboardAvoiding View
+#
+# pod 'SSToolkit'
+#
