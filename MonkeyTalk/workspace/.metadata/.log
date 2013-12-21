@@ -1,0 +1,90 @@
+!SESSION 2013-11-25 18:29:36.882 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/darren.ehlers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/MonkeyTalk/workspace -keyring /Users/darren.ehlers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-25 18:29:40.288
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 18:29:40.475
+!MESSAGE ==================> HttpClient Diagnostics: BEFORE CALL <====================
+Proxy auth state null  (as expected)
+Target auth state null  (as expected)
+CredentialsProvider={}
+================> END HttpClient Diagnostics: BEFORE CALL <==================
+
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 18:29:41.003
+!MESSAGE ==================> HttpClient Diagnostics: AFTER CALL <====================
+Proxy auth state: UNCHALLENGED
+Proxy auth scheme: null
+Proxy auth credentials: null
+Target auth state: UNCHALLENGED
+Target auth scheme: null
+Target auth credentials: null
+CredentialsProvider={}
+================> END HttpClient Diagnostics: AFTER CALL <==================
+
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 18:55:08.876
+!MESSAGE ==================> HttpClient Diagnostics: BEFORE CALL <====================
+Proxy auth state null  (as expected)
+Target auth state null  (as expected)
+CredentialsProvider={}
+================> END HttpClient Diagnostics: BEFORE CALL <==================
+
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 18:55:08.901
+!MESSAGE ==================> HttpClient Diagnostics: BEFORE CALL <====================
+Proxy auth state null  (as expected)
+Target auth state null  (as expected)
+CredentialsProvider={}
+================> END HttpClient Diagnostics: BEFORE CALL <==================
+
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 18:55:09.197
+!MESSAGE ==================> HttpClient Diagnostics: AFTER CALL <====================
+Proxy auth state: UNCHALLENGED
+Proxy auth scheme: null
+Proxy auth credentials: null
+Target auth state: UNCHALLENGED
+Target auth scheme: null
+Target auth credentials: null
+CredentialsProvider={}
+================> END HttpClient Diagnostics: AFTER CALL <==================
+
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 18:55:09.225
+!MESSAGE ==================> HttpClient Diagnostics: AFTER CALL <====================
+Proxy auth state: UNCHALLENGED
+Proxy auth scheme: null
+Proxy auth credentials: null
+Target auth state: UNCHALLENGED
+Target auth scheme: null
+Target auth credentials: null
+CredentialsProvider={}
+================> END HttpClient Diagnostics: AFTER CALL <==================
+
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 19:00:00.111
+!MESSAGE ==================> HttpClient Diagnostics: BEFORE CALL <====================
+Proxy auth state null  (as expected)
+Target auth state null  (as expected)
+CredentialsProvider={}
+================> END HttpClient Diagnostics: BEFORE CALL <==================
+
+
+!ENTRY com.gorillalogic.monkeytalk.ide 1 0 2013-11-25 19:00:01.016
+!MESSAGE ==================> HttpClient Diagnostics: AFTER CALL <====================
+Proxy auth state: UNCHALLENGED
+Proxy auth scheme: null
+Proxy auth credentials: null
+Target auth state: UNCHALLENGED
+Target auth scheme: null
+Target auth credentials: null
+CredentialsProvider={}
+================> END HttpClient Diagnostics: AFTER CALL <==================
+

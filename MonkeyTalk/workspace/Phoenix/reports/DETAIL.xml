@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2013-11-25 19:09:39.849 CST" projectPath="/Users/darren.ehlers/Documents/Clients/Gateway/git/tableproject/phoenix-ios/MonkeyTalk/workspace/Phoenix" agent="iOS v1.0.62_86 - 2013-10-31 13:06:16 MDT" runner="MonkeyTalk IDE v1.0.62_102 - 2013-10-31 13:07:42 MDT">
+    <script  comp="Script" id="ide" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script ide Run %thinktime=500 %timeout=2000" idx="1" start="1385428176653" stop="1385428179846" duration="3.193" result="ok">
+        <cmd  comp="Button" id="SIGN IN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button &quot;SIGN IN&quot; Tap %thinktime=500 %timeout=2000" idx="2" start="1385428176653" stop="1385428177196" duration="0.543" result="ok">
+        </cmd>
+        <cmd  comp="SHEmailValidationTextField" id="Email Address" action="Tap" mods="%thinktime=500 %timeout=2000" raw="SHEmailValidationTextField &quot;Email Address&quot; Tap %thinktime=500 %timeout=2000" idx="3" start="1385428177196" stop="1385428177733" duration="0.537" result="ok">
+        </cmd>
+        <cmd  comp="SHEmailValidationTextField" id="Email Address" action="EnterText" args="a@a.con" mods="%thinktime=500 %timeout=2000" raw="SHEmailValidationTextField &quot;Email Address&quot; EnterText a@a.con %thinktime=500 %timeout=2000" idx="4" start="1385428177733" stop="1385428178244" duration="0.511" result="ok">
+        </cmd>
+        <cmd  comp="SHAutocorrectSuggestionView" id="*" action="Tap" mods="%thinktime=500 %timeout=2000" raw="SHAutocorrectSuggestionView * Tap %thinktime=500 %timeout=2000" idx="5" start="1385428178244" stop="1385428178751" duration="0.507" result="ok">
+        </cmd>
+        <cmd  comp="DNTextField" id="Password" action="EnterText" args="test" mods="%thinktime=500 %timeout=2000" raw="DNTextField Password EnterText test %thinktime=500 %timeout=2000" idx="6" start="1385428178752" stop="1385428179298" duration="0.546" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="SIGN IN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button &quot;SIGN IN&quot; Tap %thinktime=500 %timeout=2000" idx="7" start="1385428179299" stop="1385428179846" duration="0.547" result="ok">
+        </cmd>
+    </script>
+</detail>
