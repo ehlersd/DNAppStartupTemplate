@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4511" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jqi-ru-6bh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4511" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jqi-ru-6bh">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--Main View Controller - APPLICATION-->
         <scene sceneID="pCE-DU-QML">
             <objects>
-                <viewController storyboardIdentifier="contentController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aHx-Fq-esU" customClass="MainViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aHx-Fq-esU" customClass="MainViewController" sceneMemberID="viewController">
                     <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper.png" id="gFo-MD-ejl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="514" y="109"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="oVL-zg-3KK">
             <objects>
-                <viewController storyboardIdentifier="menuController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YqC-ki-VEz" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YqC-ki-VEz" customClass="MenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ri8-FV-7zd"/>
                         <viewControllerLayoutGuide type="bottom" id="NS3-ra-9zQ"/>
@@ -39,7 +39,7 @@
         <!--Navigation View Controller-->
         <scene sceneID="gTZ-ev-Nso">
             <objects>
-                <navigationController storyboardIdentifier="navigationController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wEq-a9-HXi" customClass="NavigationViewController" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationViewController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wEq-a9-HXi" customClass="NavigationViewController" sceneMemberID="viewController">
                     <keyCommands/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JRJ-R6-nhe">
                         <autoresizingMask key="autoresizingMask"/>
@@ -60,7 +60,7 @@
         <!--I Phone Root View Controller-->
         <scene sceneID="hNZ-DM-oUT">
             <objects>
-                <viewController storyboardIdentifier="rootController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ndO-qz-o04" customClass="iPhoneRootViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="iPhoneRootViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ndO-qz-o04" customClass="iPhoneRootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nGq-7N-CHG"/>
                         <viewControllerLayoutGuide type="bottom" id="6F8-zu-vz9"/>
@@ -84,7 +84,7 @@
         <!--Desktop View Controller-->
         <scene sceneID="x6d-Ct-hK1">
             <objects>
-                <viewController storyboardIdentifier="desktopController" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jqi-ru-6bh" customClass="DesktopViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DesktopViewController" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jqi-ru-6bh" customClass="DesktopViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V50-oW-rCd"/>
                         <viewControllerLayoutGuide type="bottom" id="gkd-TN-BAy"/>

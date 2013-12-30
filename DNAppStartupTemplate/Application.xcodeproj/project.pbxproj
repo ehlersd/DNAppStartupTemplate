@@ -38,6 +38,8 @@
 		AD2D248B181AD9AB005E20DE /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2481181AD9AB005E20DE /* ProximaNova-RegularItalic.otf */; };
 		AD2D248C181AD9AB005E20DE /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2482181AD9AB005E20DE /* ProximaNova-Semibold.otf */; };
 		AD2D248D181AD9AB005E20DE /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2483181AD9AB005E20DE /* ProximaNova-SemiboldItalic.otf */; };
+		AD31F91D1870F5C900C0F9ED /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31F91C1870F5C900C0F9ED /* MenuViewController.m */; };
+		AD31F91E1870F5C900C0F9ED /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31F91C1870F5C900C0F9ED /* MenuViewController.m */; };
 		AD32EB131855269D0091F7BB /* btnSuccessNipple.png in Resources */ = {isa = PBXBuildFile; fileRef = AD32EB111855269D0091F7BB /* btnSuccessNipple.png */; };
 		AD32EB141855269D0091F7BB /* btnSuccessNipple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD32EB121855269D0091F7BB /* btnSuccessNipple@2x.png */; };
 		AD32EB1618556FEE0091F7BB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32EB1518556FED0091F7BB /* MessageUI.framework */; };
@@ -243,6 +245,8 @@
 		AD2D2482181AD9AB005E20DE /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
 		AD2D2483181AD9AB005E20DE /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		AD2D24A4181AFA4A005E20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD31F91B1870F5C900C0F9ED /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		AD31F91C1870F5C900C0F9ED /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		AD32EB111855269D0091F7BB /* btnSuccessNipple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSuccessNipple.png; sourceTree = "<group>"; };
 		AD32EB121855269D0091F7BB /* btnSuccessNipple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnSuccessNipple@2x.png"; sourceTree = "<group>"; };
 		AD32EB1518556FED0091F7BB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -525,6 +529,8 @@
 				AD8489BC18654F8400302C5C /* MainViewController.m */,
 				AD8489BD18654F8400302C5C /* NavigationViewController.h */,
 				AD8489BE18654F8400302C5C /* NavigationViewController.m */,
+				AD31F91B1870F5C900C0F9ED /* MenuViewController.h */,
+				AD31F91C1870F5C900C0F9ED /* MenuViewController.m */,
 			);
 			path = "Main View Controllers";
 			sourceTree = "<group>";
@@ -1213,6 +1219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8489C618654F8D00302C5C /* CDOConstant.m in Sources */,
+				AD31F91E1870F5C900C0F9ED /* MenuViewController.m in Sources */,
 				AD8489CA18654F9800302C5C /* MainViewController.m in Sources */,
 				ADED108B184423A900D26466 /* KZColorPickerAlphaSlider.m in Sources */,
 				AD22097E185BC30600914F5B /* AppDelegate.m in Sources */,
@@ -1256,6 +1263,7 @@
 				AD8489E118654FAB00302C5C /* LOGWelcomeViewController.m in Sources */,
 				AD8489AB18654F5F00302C5C /* CDConstantsDataModel.m in Sources */,
 				ADEE26EF1816FA90002CE729 /* DTAlertView.m in Sources */,
+				AD31F91D1870F5C900C0F9ED /* MenuViewController.m in Sources */,
 				ADF634E617F09CB400CD6740 /* UIImage+iPhone5.m in Sources */,
 				ADF634DC17F09CB400CD6740 /* KZUnitSlider.m in Sources */,
 				AD220977185B834C00914F5B /* AppScreenshotManager.m in Sources */,

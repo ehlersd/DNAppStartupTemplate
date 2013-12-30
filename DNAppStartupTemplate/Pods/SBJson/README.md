@@ -1,22 +1,29 @@
 JSON (JavaScript Object Notation) is a light-weight data interchange
 format that's easy to read and write for humans and computers alike.
-This library implements strict JSON parsing and generation in
+This library implements chunk-based JSON parsing and generation in
 Objective-C.
 
 Features
 ========
 
-* Streaming Support (see SBJsonStreamParser & SBJsonStreamWriter)
-* Configurable recursion depth limit
-* Automatic Reference Counting (ARC)
-* Optionally sort dictionary keys in JSON output
-* Optional pretty-printing of JSON output
+SBJson's number one feature is chunk-based operation. Feed the parser one or
+more chunks of UTF8-encoded data and it will call a block you provide with each
+root-level document or array; or optionally for each top-level entry in one (or
+more) root-level array. See more in the [Version 4 API
+docs](http://sbjson.org/api/4.0/Classes/SBJson4Parser.html).
+
+Other features:
+
+* Configurable recursion limit. For safety SBJson defaults to a max nesting
+  level of 32 for all input. This can be configured if necessary.
+* The writer can optionally sort dictionary keys so output is consistent across writes.
+* The writer can optionally create human-readable (indented) output.
 
 Links
 =====
 
 * [GitHub project page](http://github.com/stig/json-framework)
-* [Online API docs](http://sbjson.org/api/3.2)
+* [Online API docs](http://sbjson.org/api/4.0)
 * [SBJson tag on Stack Overflow](http://stackoverflow.com/questions/tagged/sbjson)
 
 
@@ -24,10 +31,10 @@ Installation
 ============
 
 The simplest way to start using JSON in your application is to copy all
-the source files (the contents of the `Classes` folder) into your own
+the source files (the contents of the `src/main/objc` folder) into your own
 Xcode project.
 
-1. In the Finder, navigate into the `Classes` folder.
+1. In the Finder, navigate into the `src/main/objc` folder.
 2. Select all the files and drag-and-drop them into your Xcode project.
 3. Tick the **Copy items into destination group's folder** option.
 4. Use `#import "SBJson.h"` in  your source files.

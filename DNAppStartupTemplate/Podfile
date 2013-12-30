@@ -72,6 +72,7 @@ pod 'CWStatusBarNotification'
 pod 'FrameAccessor'
 pod 'LEColorPicker'
 pod 'VCTransitionsLibrary'
+pod 'StoryboardInitializer', :git => 'https://github.com/azu/StoryboardInitializer'
 
 #
 # Local (in application repo) Pods

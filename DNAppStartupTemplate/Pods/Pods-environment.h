@@ -82,13 +82,13 @@
 #define COCOAPODS_POD_AVAILABLE_DoubleNode
 #define COCOAPODS_VERSION_MAJOR_DoubleNode 0
 #define COCOAPODS_VERSION_MINOR_DoubleNode 3
-#define COCOAPODS_VERSION_PATCH_DoubleNode 3
+#define COCOAPODS_VERSION_PATCH_DoubleNode 4
 
 // DoubleNode/ColorUtils
 #define COCOAPODS_POD_AVAILABLE_DoubleNode_ColorUtils
 #define COCOAPODS_VERSION_MAJOR_DoubleNode_ColorUtils 0
 #define COCOAPODS_VERSION_MINOR_DoubleNode_ColorUtils 3
-#define COCOAPODS_VERSION_PATCH_DoubleNode_ColorUtils 3
+#define COCOAPODS_VERSION_PATCH_DoubleNode_ColorUtils 4
 
 // EZForm
 #define COCOAPODS_POD_AVAILABLE_EZForm
@@ -208,12 +208,12 @@
 #define COCOAPODS_POD_AVAILABLE_Reveal_iOS_SDK
 #define COCOAPODS_VERSION_MAJOR_Reveal_iOS_SDK 1
 #define COCOAPODS_VERSION_MINOR_Reveal_iOS_SDK 0
-#define COCOAPODS_VERSION_PATCH_Reveal_iOS_SDK 2
+#define COCOAPODS_VERSION_PATCH_Reveal_iOS_SDK 3
 
 // SBJson
 #define COCOAPODS_POD_AVAILABLE_SBJson
-#define COCOAPODS_VERSION_MAJOR_SBJson 3
-#define COCOAPODS_VERSION_MINOR_SBJson 2
+#define COCOAPODS_VERSION_MAJOR_SBJson 4
+#define COCOAPODS_VERSION_MINOR_SBJson 0
 #define COCOAPODS_VERSION_PATCH_SBJson 0
 
 // SHEmailValidator
@@ -221,6 +221,12 @@
 #define COCOAPODS_VERSION_MAJOR_SHEmailValidator 1
 #define COCOAPODS_VERSION_MINOR_SHEmailValidator 0
 #define COCOAPODS_VERSION_PATCH_SHEmailValidator 4
+
+// StoryboardInitializer
+#define COCOAPODS_POD_AVAILABLE_StoryboardInitializer
+#define COCOAPODS_VERSION_MAJOR_StoryboardInitializer 0
+#define COCOAPODS_VERSION_MINOR_StoryboardInitializer 0
+#define COCOAPODS_VERSION_PATCH_StoryboardInitializer 2
 
 // TransformerKit
 #define COCOAPODS_POD_AVAILABLE_TransformerKit
